@@ -6,3 +6,6 @@
 
 # rst2html outputs
 *.html
+
+# Sphinx artifacts
+.build
