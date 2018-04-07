@@ -2,6 +2,9 @@
 DRYlib Manual
 #############
 
+Packages
+========
+
 .. toctree::
    :maxdepth: 2
 
@@ -50,6 +53,30 @@ DRYlib Manual
    text/utf8/index
    time/index
    util/index
+
+Languages
+=========
+
+.. toctree::
+   :maxdepth: 1
+
+   C <c>
+   C++ <cpp>
+   Common Lisp <lisp>
+   D <d>
+   Dart <dart>
+   Elixir <elixir>
+   Go <go>
+   Java <java>
+   JS <js>
+   Julia <julia>
+   Kotlin <kotlin>
+   Lua <lua>
+   OCaml <ocaml>
+   PHP <php>
+   Python <python>
+   Ruby <ruby>
+   Rust <rust>
 
 Indices and Tables
 ==================
