@@ -1,38 +1,20 @@
-PANDOC ?= pandoc
+# Minimal makefile for Sphinx documentation
+#
 
-PACKAGE :=
-VERSION := $(shell cat VERSION)
+# You can set these variables from the command line.
+SPHINXOPTS    =
+SPHINXBUILD   = sphinx-build
+SPHINXPROJ    = DRYlib
+SOURCEDIR     = .
+BUILDDIR      = .build
 
-SOURCES :=
+# Put it first so that "make" without argument is like "make help".
+help:
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-TARGETS :=
+.PHONY: help Makefile
 
-%.html: %.rst
-	$(PANDOC) -o $@ -t html5 -s $<
-
-all: build
-
-build: $(TARGETS)
-
-check:
-	@echo "not implemented"; exit 2 # TODO
-
-dist:
-	@echo "not implemented"; exit 2 # TODO
-
-install:
-	@echo "not implemented"; exit 2 # TODO
-
-uninstall:
-	@echo "not implemented"; exit 2 # TODO
-
-clean:
-	@rm -f *~ $(TARGETS)
-
-distclean: clean
-
-mostlyclean: clean
-
-.PHONY: check dist install clean distclean mostlyclean
-.SECONDARY:
-.SUFFIXES:
+# Catch-all target: route all unknown targets to Sphinx using the new
+# "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
+%: Makefile
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
