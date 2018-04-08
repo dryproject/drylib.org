@@ -1,0 +1,6 @@
+.. index:: pair: core/int128; type
+
+core/int128
+===========
+
+TODO

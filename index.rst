@@ -2,11 +2,11 @@
 DRYlib Manual
 #############
 
-Packages
-========
+Modules
+=======
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    code/index
    core/index
