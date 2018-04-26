@@ -2,6 +2,11 @@
 DRYlib Manual
 #############
 
+.. toctree::
+   :maxdepth: 1
+
+   faq
+
 Modules
 =======
 
