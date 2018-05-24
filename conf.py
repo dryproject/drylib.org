@@ -15,6 +15,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sphinx_bootstrap_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -22,8 +23,8 @@ project = 'DRYlib'
 #copyright = None
 author = 'Arto Bendiken'
 
-version = '2018-04-07'
-release = '2018-04-07'
+version = '2018-05-24'
+release = '2018-05-24'
 
 # -- General configuration ---------------------------------------------------
 
@@ -42,7 +43,8 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'alabaster'
+html_theme = 'bootstrap'
+html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 #html_theme_options = {}
 html_static_path = ['.static']
 #html_sidebars = {}
