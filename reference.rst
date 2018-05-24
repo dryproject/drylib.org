@@ -1,6 +1,6 @@
-#########################
-DRYlib Manual (|release|)
-#########################
+*********
+Reference
+*********
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis
 ac risus ullamcorper placerat fermentum eu est. Praesent viverra lacus in
@@ -14,11 +14,55 @@ Pellentesque fringilla sagittis arcu, eu gravida nisl imperdiet at. Nunc
 facilisis nulla ut tristique malesuada. Nulla odio neque, aliquet
 ullamcorper augue sed, blandit fringilla sapien.
 
-.. toctree::
-   :maxdepth: 2
-   :numbered:
+.. _modules:
 
-   intro
-   faq
-   tutorial
-   reference
+Modules
+=======
+
+.. toctree::
+   :maxdepth: 1
+
+   code <code/index>
+   core <core/index>
+   crypto <crypto/index>
+   data <data/index>
+   ffi <ffi/index>
+   geo <geo/index>
+   io <io/index>
+   lang <lang/index>
+   math <math/index>
+   media <media/index>
+   meta <meta/index>
+   net <net/index>
+   qty <qty/index>
+   std <std/index>
+   sys <sys/index>
+   text <text/index>
+   time <time/index>
+   util <util/index>
+
+.. _languages:
+
+Languages
+=========
+
+.. toctree::
+   :maxdepth: 1
+
+   C <c>
+   C++ <cpp>
+   Common Lisp <lisp>
+   D <d>
+   Dart <dart>
+   Elixir <elixir>
+   Go <go>
+   Java <java>
+   JS <js>
+   Julia <julia>
+   Kotlin <kotlin>
+   Lua <lua>
+   OCaml <ocaml>
+   PHP <php>
+   Python <python>
+   Ruby <ruby>
+   Rust <rust>

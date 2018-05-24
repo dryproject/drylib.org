@@ -1,6 +1,6 @@
-#########################
-DRYlib Manual (|release|)
-#########################
+********
+Tutorial
+********
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut felis
 ac risus ullamcorper placerat fermentum eu est. Praesent viverra lacus in
@@ -13,12 +13,3 @@ Suspendisse justo turpis, dictum luctus purus id, viverra commodo justo.
 Pellentesque fringilla sagittis arcu, eu gravida nisl imperdiet at. Nunc
 facilisis nulla ut tristique malesuada. Nulla odio neque, aliquet
 ullamcorper augue sed, blandit fringilla sapien.
-
-.. toctree::
-   :maxdepth: 2
-   :numbered:
-
-   intro
-   faq
-   tutorial
-   reference
