@@ -46,7 +46,8 @@ pygments_style = 'sphinx'
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 #html_theme_options = {}
-html_static_path = ['.static']
+html_static_path = []
+html_extra_path = ['.static']
 #html_sidebars = {}
 
 # -- Options for HTMLHelp output ---------------------------------------------
