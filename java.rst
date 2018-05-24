@@ -1,5 +1,123 @@
 .. index:: pair: Java; language
+.. highlight:: java
 
 ***************
 DRYlib for Java
 ***************
+
+.. contents::
+   :local:
+   :backlinks: entry
+   :depth: 2
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+- Java SE 8+
+
+- Gradle 4.6+
+
+Installation
+------------
+
+TODO
+
+Library Usage
+-------------
+
+::
+
+   import dry.*;
+
+Design Principles
+=================
+
+The Interfaces
+--------------
+
+* **Immutability:**
+  All objects are immutable (``final``) after construction.
+
+* **Null safety:**
+  No methods ever accept ``null`` arguments, nor do they return ``null``.
+  Constructors check their arguments and throw a ``NullPointerException`` if
+  passed a ``null`` value; as a consequence, no fields can be ``null``.
+
+* **Thread safety:**
+  Due to immutability, it is safe to cache and reuse object instances and to
+  freely share them between threads.
+
+The Implementation
+------------------
+
+* All local variables are declared immutable (``final``) by default, except
+  for variables that actually are mutated in the method body (no qualifier).
+
+Reference
+=========
+
+Modules
+-------
+
+======================================= ========================================
+DRY                                     Java
+======================================= ========================================
+TODO                                    TODO
+======================================= ========================================
+
+Module ``base``
+---------------
+
+======================================= ========================================
+DRY                                     Java
+======================================= ========================================
+``bool``                                ``dry.Bool`` (class)
+``char``                                ``dry.Char`` (class)
+``complex``                             ``dry.Complex`` (interface)
+``float``                               ``dry.Float`` (interface)
+``float32``                             ``dry.Float32`` (class)
+``float64``                             ``dry.Float64`` (class)
+``int``                                 ``dry.Int`` (class)
+``int8``                                ``dry.Int8`` (class)
+``int16``                               ``dry.Int16`` (class)
+``int32``                               ``dry.Int32`` (class)
+``int64``                               ``dry.Int64`` (class)
+``int128``                              ``dry.Int128`` (class)
+``integer``                             ``dry.Integer`` (interface)
+``natural``                             ``dry.Natural`` (class)
+``number``                              ``dry.Number`` (interface)
+``rational``                            ``dry.Rational`` (interface)
+``real``                                ``dry.Real`` (interface)
+``symbol``                              ``dry.Symbol`` (interface)
+``word``                                ``dry.Word`` (interface)
+``word8``                               ``dry.Word8`` (class)
+``word16``                              ``dry.Word16`` (class)
+``word32``                              ``dry.Word32`` (class)
+``word64``                              ``dry.Word64`` (class)
+======================================= ========================================
+
+Module ``math``
+---------------
+
+======================================= ========================================
+DRY                                     Java
+======================================= ========================================
+TODO                                    TODO
+======================================= ========================================
+
+Module ``text``
+---------------
+
+======================================= ========================================
+DRY                                     Java
+======================================= ========================================
+TODO                                    TODO
+======================================= ========================================
+
+See Also
+========
+
+- `Arto's Notes re: Java <http://ar.to/notes/java>`__
