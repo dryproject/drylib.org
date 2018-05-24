@@ -22,6 +22,7 @@ Modules
 .. toctree::
    :maxdepth: 1
 
+   bits <bits/index>
    code <code/index>
    core <core/index>
    crypto <crypto/index>
@@ -30,6 +31,7 @@ Modules
    geo <geo/index>
    io <io/index>
    lang <lang/index>
+   logic <logic/index>
    math <math/index>
    media <media/index>
    meta <meta/index>
