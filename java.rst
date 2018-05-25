@@ -35,25 +35,27 @@ Library Usage
 Design Principles
 =================
 
+- No dependencies on anything else, for anything.
+
 The Interfaces
 --------------
 
-* **Immutability:**
+- **Immutability:**
   All objects are immutable (``final``) after construction.
 
-* **Null safety:**
+- **Null safety:**
   No methods ever accept ``null`` arguments, nor do they return ``null``.
   Constructors check their arguments and throw a ``NullPointerException`` if
   passed a ``null`` value; as a consequence, no fields can be ``null``.
 
-* **Thread safety:**
+- **Thread safety:**
   Due to immutability, it is safe to cache and reuse object instances and to
   freely share them between threads.
 
 The Implementation
 ------------------
 
-* All local variables are declared immutable (``final``) by default, except
+- All local variables are declared immutable (``final``) by default, except
   for variables that actually are mutated in the method body (no qualifier).
 
 Reference
