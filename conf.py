@@ -20,9 +20,7 @@ import sphinx_bootstrap_theme
 # -- Project information -----------------------------------------------------
 
 project = 'DRYlib'
-#copyright = None
-author = 'Arto Bendiken'
-
+author  = 'Arto Bendiken'
 version = '2018-05-24'
 release = '2018-05-24'
 
@@ -45,10 +43,16 @@ pygments_style = 'sphinx'
 
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
-#html_theme_options = {}
+html_theme_options = {
+    'navbar_site_name': 'TOC',
+    'navbar_links': [],
+}
 html_static_path = []
 html_extra_path = ['.static']
 #html_sidebars = {}
+html_show_copyright = False
+html_show_sphinx = False
+html_last_updated_fmt = '%Y-%m-%d'
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
