@@ -64,60 +64,106 @@ Reference
 Modules
 -------
 
-======================================= ========================================
-DRY                                     Java
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Java
+   ====================================== ======================================
+   ``base``                               ``dry`` (package)
+   ``bits``                               TODO
+   ``code``                               *N/A*
+   ``crypto``                             TODO
+   ``data``                               TODO
+   ``ffi``                                *N/A*
+   ``geo``                                TODO
+   ``io``                                 TODO
+   ``lang``                               TODO
+   ``logic``                              TODO
+   ``math``                               ``dry.math`` (package)
+   ``media``                              TODO
+   ``meta``                               ``dry.meta`` (package)
+   ``net``                                TODO
+   ``qty``                                TODO
+   ``std``                                TODO
+   ``sys``                                TODO
+   ``text``                               ``dry.text`` (package)
+   ``text/ascii``                         ``dry.text.ascii`` (package)
+   ``text/printf``                        ``dry.text.printf`` (package)
+   ``text/utf8``                          ``dry.text.utf8`` (package)
+   ``time``                               TODO
+   ``util``                               TODO
+   ====================================== ======================================
 
 Module ``base``
 ---------------
 
-======================================= ========================================
-DRY                                     Java
-======================================= ========================================
-``bool``                                ``dry.Bool`` (class)
-``char``                                ``dry.Char`` (class)
-``complex``                             ``dry.Complex`` (interface)
-``float``                               ``dry.Float`` (interface)
-``float32``                             ``dry.Float32`` (class)
-``float64``                             ``dry.Float64`` (class)
-``int``                                 ``dry.Int`` (class)
-``int8``                                ``dry.Int8`` (class)
-``int16``                               ``dry.Int16`` (class)
-``int32``                               ``dry.Int32`` (class)
-``int64``                               ``dry.Int64`` (class)
-``int128``                              ``dry.Int128`` (class)
-``integer``                             ``dry.Integer`` (interface)
-``natural``                             ``dry.Natural`` (class)
-``number``                              ``dry.Number`` (interface)
-``rational``                            ``dry.Rational`` (interface)
-``real``                                ``dry.Real`` (interface)
-``symbol``                              ``dry.Symbol`` (interface)
-``word``                                ``dry.Word`` (interface)
-``word8``                               ``dry.Word8`` (class)
-``word16``                              ``dry.Word16`` (class)
-``word32``                              ``dry.Word32`` (class)
-``word64``                              ``dry.Word64`` (class)
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Java
+   ====================================== ======================================
+   ``bool``                               ``dry.Bool`` (class)
+   ``char``                               ``dry.Char`` (class)
+   ``complex``                            ``dry.Complex`` (interface)
+   ``float``                              ``dry.Float`` (interface)
+   ``float32``                            ``dry.Float32`` (class)
+   ``float64``                            ``dry.Float64`` (class)
+   ``int``                                ``dry.Int`` (class)
+   ``int8``                               ``dry.Int8`` (class)
+   ``int16``                              ``dry.Int16`` (class)
+   ``int32``                              ``dry.Int32`` (class)
+   ``int64``                              ``dry.Int64`` (class)
+   ``int128``                             ``dry.Int128`` (class)
+   ``integer``                            ``dry.Integer`` (interface)
+   ``natural``                            ``dry.Natural`` (class)
+   ``number``                             ``dry.Number`` (interface)
+   ``rational``                           ``dry.Rational`` (interface)
+   ``real``                               ``dry.Real`` (interface)
+   ``symbol``                             ``dry.Symbol`` (interface)
+   ``word``                               ``dry.Word`` (interface)
+   ``word8``                              ``dry.Word8`` (class)
+   ``word16``                             ``dry.Word16`` (class)
+   ``word32``                             ``dry.Word32`` (class)
+   ``word64``                             ``dry.Word64`` (class)
+   ====================================== ======================================
 
 Module ``math``
 ---------------
 
-======================================= ========================================
-DRY                                     Java
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Java
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
+
+Module ``meta``
+---------------
+
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Java
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
 
 Module ``text``
 ---------------
 
-======================================= ========================================
-DRY                                     Java
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Java
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
 
 See Also
 ========

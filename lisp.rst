@@ -54,64 +54,113 @@ See also
 <https://common-lisp.net/project/asdf/asdf/Using-ASDF.html#Using-ASDF>`__
 in the ASDF manual.
 
+Design Principles
+=================
+
 Reference
 =========
 
 Modules
 -------
 
-======================================= ========================================
-DRY                                     Common Lisp
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Common Lisp
+   ====================================== ======================================
+   ``base``                               ``dry`` (package)
+   ``bits``                               TODO
+   ``code``                               *N/A*
+   ``crypto``                             TODO
+   ``data``                               TODO
+   ``ffi``                                TODO
+   ``geo``                                TODO
+   ``io``                                 TODO
+   ``lang``                               TODO
+   ``logic``                              TODO
+   ``math``                               ``dry/math`` (package)
+   ``media``                              TODO
+   ``meta``                               ``dry/meta`` (package)
+   ``net``                                TODO
+   ``qty``                                TODO
+   ``std``                                TODO
+   ``sys``                                TODO
+   ``text``                               ``dry/text`` (package)
+   ``text/ascii``                         ``dry/text/ascii`` (package)
+   ``text/printf``                        ``dry/text/printf`` (package)
+   ``text/utf8``                          ``dry/text/utf8`` (package)
+   ``time``                               TODO
+   ``util``                               TODO
+   ====================================== ======================================
 
 Module ``base``
 ---------------
 
-======================================= ========================================
-DRY                                     Common Lisp
-======================================= ========================================
-``bool``                                ``dry:bool`` (type with members ``true`` and ``false``)
-``char``                                ``dry:char`` (type alias for ``character``)
-``complex``                             ``dry:complex`` (type constrainted by ``complexp``)
-``float``                               ``dry:float`` (type disjunction of ``dry:float{32,64}``)
-``float32``                             ``dry:float32`` (type alias for ``single-float``)
-``float64``                             ``dry:float64`` (type alias for ``double-float``)
-``int``                                 ``dry:int`` (type alias for ``fixnum``)
-``int8``                                ``dry:int8`` (type alias for ``signed-byte 8``)
-``int16``                               ``dry:int16`` (type alias for ``signed-byte 16``)
-``int32``                               ``dry:int32`` (type alias for ``signed-byte 32``)
-``int64``                               ``dry:int64`` (type alias for ``signed-byte 64``)
-``int128``                              ``dry:int128`` (type alias for ``signed-byte 128``)
-``integer``                             ``dry:integer`` (type alias for ``signed-byte``)
-``natural``                             ``dry:natural`` (type constrainted by ``nonnegativep``)
-``rational``                            ``dry:rational`` (type constrainted by ``rationalp``)
-``real``                                ``dry:real`` (type disjunction of ``dry:{rational,float}``)
-``word``                                ``dry:word`` (type alias for ``dry:word64``)
-``word8``                               ``dry:word8`` (type alias for ``unsigned-byte 8``)
-``word16``                              ``dry:word16`` (type alias for ``unsigned-byte 16``)
-``word32``                              ``dry:word32`` (type alias for ``unsigned-byte 32``)
-``word64``                              ``dry:word64`` (type alias for ``unsigned-byte 64``)
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Common Lisp
+   ====================================== ======================================
+   ``bool``                               ``dry:bool`` (type with members ``true`` and ``false``)
+   ``char``                               ``dry:char`` (type alias for ``character``)
+   ``complex``                            ``dry:complex`` (type constrainted by ``complexp``)
+   ``float``                              ``dry:float`` (type disjunction of ``dry:float{32,64}``)
+   ``float32``                            ``dry:float32`` (type alias for ``single-float``)
+   ``float64``                            ``dry:float64`` (type alias for ``double-float``)
+   ``int``                                ``dry:int`` (type alias for ``fixnum``)
+   ``int8``                               ``dry:int8`` (type alias for ``signed-byte 8``)
+   ``int16``                              ``dry:int16`` (type alias for ``signed-byte 16``)
+   ``int32``                              ``dry:int32`` (type alias for ``signed-byte 32``)
+   ``int64``                              ``dry:int64`` (type alias for ``signed-byte 64``)
+   ``int128``                             ``dry:int128`` (type alias for ``signed-byte 128``)
+   ``integer``                            ``dry:integer`` (type alias for ``signed-byte``)
+   ``natural``                            ``dry:natural`` (type constrainted by ``nonnegativep``)
+   ``rational``                           ``dry:rational`` (type constrainted by ``rationalp``)
+   ``real``                               ``dry:real`` (type disjunction of ``dry:{rational,float}``)
+   ``word``                               ``dry:word`` (type alias for ``dry:word64``)
+   ``word8``                              ``dry:word8`` (type alias for ``unsigned-byte 8``)
+   ``word16``                             ``dry:word16`` (type alias for ``unsigned-byte 16``)
+   ``word32``                             ``dry:word32`` (type alias for ``unsigned-byte 32``)
+   ``word64``                             ``dry:word64`` (type alias for ``unsigned-byte 64``)
+   ====================================== ======================================
 
 Module ``math``
 ---------------
 
-======================================= ========================================
-DRY                                     Common Lisp
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Common Lisp
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
+
+Module ``meta``
+---------------
+
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Common Lisp
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
 
 Module ``text``
 ---------------
 
-======================================= ========================================
-DRY                                     Common Lisp
-======================================= ========================================
-TODO                                    TODO
-======================================= ========================================
+.. table::
+   :widths: 50 50
+
+   ====================================== ======================================
+   DRY                                    Common Lisp
+   ====================================== ======================================
+   TODO                                   TODO
+   ====================================== ======================================
 
 See Also
 ========
