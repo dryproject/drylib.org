@@ -6,5 +6,8 @@ std
 
 .. dry:module:: std
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2

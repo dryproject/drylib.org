@@ -5,6 +5,3 @@ std/opengroup
 *************
 
 .. dry:module:: std/opengroup
-
-.. toctree::
-   :maxdepth: 2

@@ -6,10 +6,8 @@ geo
 
 .. dry:module:: geo
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2
-
-   altitude
-   latitude
-   location
-   longitude

@@ -1,0 +1,6 @@
+.. index:: pair: base/int128; type
+
+base/int128
+===========
+
+Integer number (128-bit).

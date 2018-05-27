@@ -6,8 +6,8 @@ time
 
 .. dry:module:: time
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2
-
-   duration
-   instant

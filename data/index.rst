@@ -6,5 +6,8 @@ data
 
 .. dry:module:: data
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2

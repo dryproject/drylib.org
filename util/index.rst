@@ -6,5 +6,8 @@ util
 
 .. dry:module:: util
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2

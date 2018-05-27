@@ -22,9 +22,9 @@ Modules
 .. toctree::
    :maxdepth: 1
 
+   base <base/index>
    bits <bits/index>
    code <code/index>
-   core <core/index>
    crypto <crypto/index>
    data <data/index>
    ffi <ffi/index>

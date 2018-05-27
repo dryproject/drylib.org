@@ -6,5 +6,8 @@ ffi
 
 .. dry:module:: ffi
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2

@@ -5,6 +5,3 @@ media/video
 ***********
 
 .. dry:module:: media/video
-
-.. toctree::
-   :maxdepth: 2

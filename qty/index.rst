@@ -6,10 +6,8 @@ qty
 
 .. dry:module:: qty
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2
-
-   angle
-   length
-   mass
-   time

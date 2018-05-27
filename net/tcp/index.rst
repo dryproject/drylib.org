@@ -5,6 +5,3 @@ net/tcp
 *******
 
 .. dry:module:: net/tcp
-
-.. toctree::
-   :maxdepth: 2

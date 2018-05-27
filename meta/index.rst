@@ -6,7 +6,8 @@ meta
 
 .. dry:module:: meta
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2
-
-   quantifiable

@@ -5,6 +5,3 @@ std/iana
 ********
 
 .. dry:module:: std/iana
-
-.. toctree::
-   :maxdepth: 2

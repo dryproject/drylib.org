@@ -6,5 +6,8 @@ text
 
 .. dry:module:: text
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2

@@ -6,7 +6,8 @@ net
 
 .. dry:module:: net
 
+Modules
+-------
+
 .. toctree::
    :maxdepth: 2
-
-   port
