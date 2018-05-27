@@ -35,26 +35,26 @@ Module Reference
    ====================================== ======================================
    Module                                 Description
    ====================================== ======================================
-   :doc:`base <base/index>`               TODO
-   :doc:`bits <bits/index>`               TODO
-   :doc:`code <code/index>`               TODO
-   :doc:`crypto <crypto/index>`           TODO
-   :doc:`data <data/index>`               TODO
-   :doc:`ffi <ffi/index>`                 TODO
-   :doc:`geo <geo/index>`                 TODO
-   :doc:`io <io/index>`                   TODO
-   :doc:`lang <lang/index>`               TODO
-   :doc:`logic <logic/index>`             TODO
-   :doc:`math <math/index>`               TODO
-   :doc:`media <media/index>`             TODO
-   :doc:`meta <meta/index>`               TODO
-   :doc:`net <net/index>`                 TODO
-   :doc:`qty <qty/index>`                 TODO
-   :doc:`std <std/index>`                 TODO
-   :doc:`sys <sys/index>`                 TODO
-   :doc:`text <text/index>`               TODO
-   :doc:`time <time/index>`               TODO
-   :doc:`util <util/index>`               TODO
+   :doc:`base <base/index>`               Base library & types.
+   :doc:`bits <bits/index>`               Bitwise operations.
+   :doc:`code <code/index>`               Code generation.
+   :doc:`crypto <crypto/index>`           Cryptographic algorithms.
+   :doc:`data <data/index>`               Generic data structures.
+   :doc:`ffi <ffi/index>`                 Foreign-function interfaces (FFI).
+   :doc:`geo <geo/index>`                 Geographic information support.
+   :doc:`io <io/index>`                   Input/output (I/O) support.
+   :doc:`lang <lang/index>`               Natural language support.
+   :doc:`logic <logic/index>`             Logical operations.
+   :doc:`math <math/index>`               Mathematical operations.
+   :doc:`media <media/index>`             Audiovisual media support.
+   :doc:`meta <meta/index>`               Metadata support.
+   :doc:`net <net/index>`                 Networking data structures.
+   :doc:`qty <qty/index>`                 Units & quantities.
+   :doc:`std <std/index>`                 Standards.
+   :doc:`sys <sys/index>`                 System interfaces (POSIX, Linux, etc).
+   :doc:`text <text/index>`               Text processing.
+   :doc:`time <time/index>`               Date & time calculations.
+   :doc:`util <util/index>`               Miscellaneous utilities.
    ====================================== ======================================
 
 .. _language-reference:
