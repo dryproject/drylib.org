@@ -3,4 +3,6 @@
 base/int128
 ===========
 
+.. dry:type:: base/int128
+
 Integer number (128-bit).

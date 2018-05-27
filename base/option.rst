@@ -3,4 +3,6 @@
 base/option
 ===========
 
+.. dry:type:: base/option
+
 Optional value.
