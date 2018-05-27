@@ -40,7 +40,7 @@ templates_path = ['.templates']
 source_suffix = '.rst'
 master_doc = 'index'
 language = None
-exclude_patterns = ['.build', '.themes', 'CHANGES.rst', 'CREDITS.rst', 'README.rst', 'TODO.rst']
+exclude_patterns = ['.build', '.extensions', '.themes', 'CHANGES.rst', 'CREDITS.rst', 'README.rst', 'TODO.rst']
 pygments_style = 'sphinx'
 
 # -- Options for HTML output -------------------------------------------------
