@@ -4,5 +4,7 @@
 std
 ***
 
+.. dry:module:: std
+
 .. toctree::
    :maxdepth: 2

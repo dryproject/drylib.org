@@ -4,5 +4,7 @@
 text/printf
 ***********
 
+.. dry:module:: text/printf
+
 .. toctree::
    :maxdepth: 2

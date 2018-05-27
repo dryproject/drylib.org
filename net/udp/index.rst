@@ -4,5 +4,7 @@
 net/udp
 *******
 
+.. dry:module:: net/udp
+
 .. toctree::
    :maxdepth: 2

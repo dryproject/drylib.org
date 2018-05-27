@@ -4,6 +4,8 @@
 qty
 ***
 
+.. dry:module:: qty
+
 .. toctree::
    :maxdepth: 2
 

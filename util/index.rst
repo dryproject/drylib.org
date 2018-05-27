@@ -4,5 +4,7 @@
 util
 ****
 
+.. dry:module:: util
+
 .. toctree::
    :maxdepth: 2

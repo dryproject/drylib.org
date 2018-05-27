@@ -4,5 +4,7 @@
 lang/en
 *******
 
+.. dry:module:: lang/en
+
 .. toctree::
    :maxdepth: 2

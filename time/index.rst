@@ -4,6 +4,8 @@
 time
 ****
 
+.. dry:module:: time
+
 .. toctree::
    :maxdepth: 2
 

@@ -4,6 +4,8 @@
 std/ietf
 ********
 
+.. dry:module:: std/ietf
+
 .. toctree::
    :maxdepth: 2
 

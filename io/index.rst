@@ -4,5 +4,7 @@
 io
 **
 
+.. dry:module:: io
+
 .. toctree::
    :maxdepth: 2

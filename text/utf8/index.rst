@@ -4,5 +4,7 @@
 text/utf8
 *********
 
+.. dry:module:: text/utf8
+
 .. toctree::
    :maxdepth: 2

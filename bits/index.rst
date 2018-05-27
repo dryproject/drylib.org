@@ -4,5 +4,7 @@
 bits
 ****
 
+.. dry:module:: bits
+
 .. toctree::
    :maxdepth: 2

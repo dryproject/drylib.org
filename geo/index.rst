@@ -4,6 +4,8 @@
 geo
 ***
 
+.. dry:module:: geo
+
 .. toctree::
    :maxdepth: 2
 

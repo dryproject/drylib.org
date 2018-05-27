@@ -4,5 +4,7 @@
 sys
 ***
 
+.. dry:module:: sys
+
 .. toctree::
    :maxdepth: 2

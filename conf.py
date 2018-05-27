@@ -34,6 +34,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx-polyglot', # file:.extensions/sphinx-polyglot/sphinx-polyglot.py
+    'sphinx-dry',      # file:.extensions/sphinx-dry.py
 ]
 templates_path = ['.templates']
 source_suffix = '.rst'

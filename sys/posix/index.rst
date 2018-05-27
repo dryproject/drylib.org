@@ -4,6 +4,8 @@
 sys/posix
 *********
 
+.. dry:module:: sys/posix
+
 .. toctree::
    :maxdepth: 2
 

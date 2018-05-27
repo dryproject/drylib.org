@@ -4,5 +4,7 @@
 ffi
 ***
 
+.. dry:module:: ffi
+
 .. toctree::
    :maxdepth: 2

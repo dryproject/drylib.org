@@ -4,5 +4,7 @@
 crypto/hash
 ***********
 
+.. dry:module:: crypto/hash
+
 .. toctree::
    :maxdepth: 2

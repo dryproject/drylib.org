@@ -4,6 +4,8 @@
 core
 ****
 
+.. dry:module:: base
+
 .. toctree::
    :maxdepth: 2
 
