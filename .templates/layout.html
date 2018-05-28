@@ -1,0 +1,28 @@
+{% extends "!layout.html" %}
+
+{%- block footer %}
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="https://drylib.org/license.html"><img alt="No copyright" src="https://drylib.org/license.svg" style="height: 1rem;"/></a>
+      <a href="https://drylib.org/license.html">Public domain</a>
+    </p>
+    <p role="list">
+      <a role="listitem" href="https://drylib.org"><b>DRYlib</b></a>
+      &rang;
+      <a role="listitem" href="https://drylib.org/modules.html">Module Reference</a>
+      &middot;
+      <a role="listitem" href="https://drylib.org/languages.html">Language Reference</a>
+      &middot;
+      <a role="listitem" href="https://github.com/dryproject">Code Repositories</a>
+    </p>
+<!--
+    <p>
+    {%- if last_updated %}
+      {% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}<br/>
+    {%- endif %}
+    </p>
+-->
+  </div>
+</footer>
+{%- endblock %}

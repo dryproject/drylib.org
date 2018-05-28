@@ -2,11 +2,6 @@
 DRYlib Manual
 #############
 
-.. contents::
-   :local:
-   :backlinks: entry
-   :depth: 2
-
 *This is a semi-public, pre-alpha, work-in-progress project.*
 
 **Here be dragons.**
