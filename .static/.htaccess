@@ -32,3 +32,11 @@ DefaultLanguage en
 # See: https://httpd.apache.org/docs/2.4/mod/core.html#errordocument
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
+
+# Remove any trailing '/index.html' from the URL path.
+# See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+</IfModule>
