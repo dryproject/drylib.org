@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: module: std/si
 
 ******
