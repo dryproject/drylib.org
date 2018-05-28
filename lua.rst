@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: Lua; language
 .. highlight:: lua
 

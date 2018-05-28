@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: Rust; language
 .. highlight:: rust
 

@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: Python; language
 .. highlight:: python3
 

@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: Common Lisp; language
 .. highlight:: common-lisp
 

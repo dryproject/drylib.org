@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: Julia; language
 .. highlight:: julia
 

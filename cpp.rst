@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: C++; language
 .. highlight:: c++
 

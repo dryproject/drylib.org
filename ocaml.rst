@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 .. index:: pair: OCaml; language
 .. highlight:: ocaml
 
