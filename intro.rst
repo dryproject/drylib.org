@@ -13,3 +13,16 @@ Suspendisse justo turpis, dictum luctus purus id, viverra commodo justo.
 Pellentesque fringilla sagittis arcu, eu gravida nisl imperdiet at. Nunc
 facilisis nulla ut tristique malesuada. Nulla odio neque, aliquet
 ullamcorper augue sed, blandit fringilla sapien.
+
+Rationale
+=========
+
+- Reduces the cognitive load of frequently switching between different
+  programming languages.
+
+- Enables network effects to cross different languages.
+
+- Facilitates code generation for multiple target languages.
+
+Features
+========
