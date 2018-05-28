@@ -49,15 +49,31 @@ pygments_style = 'sphinx'
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_theme_options = {
+    'navbar_title': project,
     'navbar_site_name': 'TOC',
     'navbar_links': [],
+    'navbar_sidebarrel': True,
+    'navbar_pagenav': False,
+    'navbar_pagenav_name': 'Page',
+    'globaltoc_depth': 1,
+    'globaltoc_includehidden': True,
+    'navbar_class': 'navbar navbar-inverse',
+    'navbar_fixed_top': True,
+    'source_link_position': None,
+    #'bootswatch_theme': None,
+    'bootstrap_version': '3',
 }
-html_static_path = []
-html_extra_path = ['.static']
+html_logo = 'logo.svg'
+html_static_path = ['.static']
+html_extra_path = ['.htdocs']
 #html_sidebars = {}
 html_show_copyright = False
 html_show_sphinx = False
 html_last_updated_fmt = '%Y-%m-%d'
+
+#html_sidebars = {
+#   '**': ['searchbox.html', 'globaltoc.html', 'localtoc.html', 'relations.html', 'sourcelink.html'],
+#}
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
