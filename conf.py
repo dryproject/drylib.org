@@ -33,6 +33,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
+    'sphinxcontrib.toc',
     'sphinx-polyglot', # file:.extensions/sphinx-polyglot/sphinx-polyglot.py
     'sphinx-dry',      # file:.extensions/sphinx-dry.py
 ]
