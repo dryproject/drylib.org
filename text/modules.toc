@@ -1,0 +1,4 @@
+# text
+ascii/index
+printf/index
+utf8/index

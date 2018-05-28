@@ -1,8 +1,18 @@
+:orphan:
+
 .. index:: module: lang
 
 ****
 lang
 ****
+
+.. contents::
+   :local:
+   :backlinks: entry
+   :depth: 2
+
+Description
+-----------
 
 .. dry:module:: lang
 
@@ -10,4 +20,6 @@ Modules
 -------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+
+   en <en/index>

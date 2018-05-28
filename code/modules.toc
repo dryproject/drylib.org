@@ -1,0 +1,21 @@
+# code
+beam/index
+c/index
+cpp/index
+d/index
+dart/index
+dry/index
+elixir/index
+go/index
+java/index
+js/index
+julia/index
+kotlin/index
+lisp/index
+lua/index
+ocaml/index
+php/index
+python/index
+ruby/index
+rust/index
+wasm/index

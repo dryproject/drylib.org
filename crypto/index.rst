@@ -1,8 +1,18 @@
+:orphan:
+
 .. index:: module: crypto
 
 ******
 crypto
 ******
+
+.. contents::
+   :local:
+   :backlinks: entry
+   :depth: 2
+
+Description
+-----------
 
 .. dry:module:: crypto
 
@@ -10,4 +20,6 @@ Modules
 -------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+
+   hash <hash/index>
