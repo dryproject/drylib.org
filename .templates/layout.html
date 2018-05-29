@@ -4,15 +4,15 @@
 <footer class="footer">
   <div class="container">
     <p class="pull-right">
-      <a href="https://drylib.org/license.html"><img alt="No copyright" src="https://drylib.org/license.svg" style="height: 1rem;"/></a>
-      <a href="https://drylib.org/license.html">Public domain</a>
+      <a href="{{ pathto('license') }}"><img alt="No copyright" src="{{ pathto('license.svg', 1) }}" style="height: 1rem;"/></a>
+      <a href="{{ pathto('license') }}">Public domain</a>
     </p>
     <p role="list">
-      <a role="listitem" href="https://drylib.org"><b>DRYlib</b></a>
+      <a role="listitem" href="{{ pathto('index') }}"><b>DRYlib</b></a>
       &rang;
-      <a role="listitem" href="https://drylib.org/modules.html">Module Reference</a>
+      <a role="listitem" href="{{ pathto('modules') }}">Module Reference</a>
       &middot;
-      <a role="listitem" href="https://drylib.org/languages.html">Language Reference</a>
+      <a role="listitem" href="{{ pathto('languages') }}">Language Reference</a>
       &middot;
       <a role="listitem" href="https://github.com/dryproject">Code Repositories</a>
     </p>
