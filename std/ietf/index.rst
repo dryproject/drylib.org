@@ -6,10 +6,12 @@
 std/ietf
 ********
 
-.. contents::
-   :local:
-   :backlinks: entry
-   :depth: 2
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
 
 Description
 -----------
