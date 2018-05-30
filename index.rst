@@ -6,9 +6,12 @@ DRYlib Manual
    :hidden:
 
    intro
-   faq
    tutorial
+   faq
    reference
+   history
+   glossary
+   bibliography
 
 .. warning::
 

@@ -1,9 +1,10 @@
 :orphan:
 
 .. index:: time-complexity
+.. highlight:: none
 
-***************
-Time-Complexity
-***************
+*************************
+Time-Complexity Reference
+*************************
 
 TODO
