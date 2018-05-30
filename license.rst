@@ -6,7 +6,8 @@
 License
 *******
 
-DRYlib is 100% free and unencumbered `public domain <https://unlicense.org>`__
+DRYlib in its entirety, including all source code as well as this manual,
+is 100% free and unencumbered `public domain <https://unlicense.org>`__
 software.
 
 ::
