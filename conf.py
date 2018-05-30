@@ -63,7 +63,8 @@ html_theme_options = {
     #'bootswatch_theme': None,
     'bootstrap_version': '3',
 }
-html_logo = 'logo.svg'
+html_logo = '.static/logo.png'
+html_favicon = '.static/icon.png'
 html_static_path = ['.static']
 html_extra_path = ['.htdocs']
 #html_sidebars = {}
