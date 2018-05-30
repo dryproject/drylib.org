@@ -145,4 +145,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Kotlin <http://ar.to/notes/kotlin>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.kt/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Kotlin <http://ar.to/notes/kotlin>`__

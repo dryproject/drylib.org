@@ -148,4 +148,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Julia <http://ar.to/notes/julia>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.jl/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Julia <http://ar.to/notes/julia>`__

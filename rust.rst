@@ -145,4 +145,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Rust <http://ar.to/notes/rust>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.rs/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Rust <http://ar.to/notes/rust>`__

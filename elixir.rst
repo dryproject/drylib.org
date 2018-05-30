@@ -125,4 +125,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Elixir <http://ar.to/notes/elixir>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.ex/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Elixir <http://ar.to/notes/elixir>`__

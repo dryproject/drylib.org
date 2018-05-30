@@ -126,4 +126,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Python <http://ar.to/notes/python>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.py/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Python <http://ar.to/notes/python>`__

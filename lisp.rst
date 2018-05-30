@@ -169,4 +169,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Common Lisp <http://ar.to/notes/common-lisp>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.lisp/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Common Lisp <http://ar.to/notes/common-lisp>`__

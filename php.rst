@@ -180,4 +180,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: PHP <http://ar.to/notes/php>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.php/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: PHP <http://ar.to/notes/php>`__

@@ -158,4 +158,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Lua <http://ar.to/notes/lua>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.lua/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Lua <http://ar.to/notes/lua>`__

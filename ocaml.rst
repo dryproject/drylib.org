@@ -125,4 +125,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: OCaml <http://ar.to/notes/ocaml>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.ocaml/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: OCaml <http://ar.to/notes/ocaml>`__

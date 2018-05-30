@@ -172,4 +172,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Java <http://ar.to/notes/java>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.java/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Java <http://ar.to/notes/java>`__

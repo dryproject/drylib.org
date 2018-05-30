@@ -145,4 +145,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: D <http://ar.to/notes/d>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.d/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: D <http://ar.to/notes/d>`__

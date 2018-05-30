@@ -26,3 +26,18 @@ Rationale
 
 Features
 ========
+
+TODO
+
+See Also
+========
+
+.. seealso::
+
+   `In Search of Silver Bullets for Polyglots <https://speakerdeck.com/bendiken/in-search-of-silver-bullets-for-polyglots-at-pivorak-33>`__ at Speaker Deck
+      The slide deck for `@bendiken`_'s talk on the motivation for the project
+
+   `In Search of Silver Bullets for Polyglots <https://www.youtube.com/watch?v=VXg6qYKxIUw>`__ at YouTube
+      The video recording of `@bendiken`_'s talk on the motivation for the project
+
+.. _@bendiken: https://github.com/bendiken

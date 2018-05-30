@@ -40,7 +40,7 @@ Modules
 
    * - :doc:`code <code/index>`:
        :doc:`code/wasm <code/wasm/index>`,
-       ...
+       :doc:`... <code/index>`
      - Code generation.
 
    * - :doc:`crypto <crypto/index>`:
@@ -97,7 +97,7 @@ Modules
        :doc:`std/itu <std/itu/index>`,
        :doc:`std/si <std/si/index>`,
        :doc:`std/w3c <std/w3c/index>`,
-       ...
+       :doc:`... <std/index>`
      - Standards.
 
    * - :doc:`sys <sys/index>`:

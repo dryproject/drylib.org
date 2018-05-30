@@ -148,4 +148,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: C <http://ar.to/notes/c>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.c/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: C <http://ar.to/notes/c>`__

@@ -125,4 +125,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Dart <http://ar.to/notes/dart>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.dart/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Dart <http://ar.to/notes/dart>`__

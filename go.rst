@@ -148,4 +148,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Go <http://ar.to/notes/go>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.go/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Go <http://ar.to/notes/go>`__

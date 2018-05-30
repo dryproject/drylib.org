@@ -157,4 +157,8 @@ Module ``text``
 See Also
 ========
 
-- `Arto's Notes re: Ruby <http://ar.to/notes/ruby>`__
+.. seealso::
+
+   `Changelog <https://github.com/dryproject/drylib.rb/blob/master/CHANGES.rst>`__ on GitHub
+
+   `Arto's Notes re: Ruby <http://ar.to/notes/ruby>`__
