@@ -1,6 +1,7 @@
 :orphan:
 
 .. index:: licensing
+.. highlight:: none
 
 *******
 License
