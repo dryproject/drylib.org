@@ -1,6 +1,7 @@
 :orphan:
 
 .. index:: time-complexity
+.. index:: see: big-O notation; time-complexity
 .. highlight:: none
 
 *************************
