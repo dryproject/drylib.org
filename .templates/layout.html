@@ -1,5 +1,15 @@
 {% extends "!layout.html" %}
 
+{%- block htmltitle %}
+{% if pagename == 'index' %}
+    <title>{{ title|striptags|e }}</title>
+{% elif "DRYlib for " in title %}
+    <title>{{ title|striptags|e }}</title>
+{% else %}
+    <title>DRYlib: {{ title|striptags|e }}</title>
+{% endif %}
+{%- endblock %}
+
 {%- block footer %}
 <footer class="footer">
   <div class="container">
