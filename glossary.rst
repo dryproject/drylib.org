@@ -143,6 +143,9 @@ Glossary
    `numerical tower <https://en.wikipedia.org/wiki/Numerical_tower>`__
       TODO
 
+   `option type <https://en.wikipedia.org/wiki/Option_type>`__
+      See the :doc:`base/option` type.
+
    optional value
       See the :doc:`base/option` type.
 
@@ -186,6 +189,9 @@ Glossary
    scalar
       A 0D :term:`tensor`.
       See the :doc:`base/scalar` type.
+
+   `sentinel value <https://en.wikipedia.org/wiki/Sentinel_value>`__
+      TODO
 
    sequence
       See the :doc:`base/seq` type.

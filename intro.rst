@@ -20,14 +20,19 @@ Rationale
 - Reduces the cognitive load of frequently switching between different
   programming languages.
 
-- Enables network effects to cross different languages.
+- Enables network effects to cross different libraries as well as different
+  languages.
 
 - Facilitates code generation for multiple target languages.
+
+
 
 Features
 ========
 
-TODO
+- Provides predictable package naming across language ecosystems.
+
+- Respects local naming and coding conventions.
 
 See Also
 ========
