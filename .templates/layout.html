@@ -13,23 +13,27 @@
 {%- block footer %}
 <footer class="footer">
   <div class="container">
-    <p class="pull-right">
+    <p class="pull-right hidden-xs">
       <a href="{{ pathto('license') }}"><img alt="No copyright" src="{{ pathto('license.svg', 1) }}" style="height: 1rem;"/></a>
       <a href="{{ pathto('license') }}">Public domain</a>
     </p>
     <p role="list">
       <a role="listitem" href="{{ pathto('index') }}"><b>DRYlib</b></a>
       &rang;
-      <a role="listitem" href="{{ pathto('intro') }}">Introduction</a>
-      &middot;
-      <a role="listitem" href="{{ pathto('tutorial') }}">Tutorial</a>
-      &middot;
-      <a role="listitem" href="{{ pathto('faq') }}">FAQ</a>
-      &middot;
+      <span class="hidden-sm hidden-xs">
+        <a role="listitem" href="{{ pathto('intro') }}">Introduction</a>
+        &middot;
+        <a role="listitem" href="{{ pathto('tutorial') }}">Tutorial</a>
+        &middot;
+        <a role="listitem" href="{{ pathto('faq') }}">FAQ</a>
+        &middot;
+      </span>
       <a role="listitem" href="{{ pathto('reference') }}">Reference</a>
-      (<a role="listitem" href="{{ pathto('modules') }}">Modules</a>,
-      <a role="listitem" href="{{ pathto('languages') }}">Languages</a>,
-      <a role="listitem" href="{{ pathto('complexity') }}">Time Complexity</a>)
+      <span class="hidden-md hidden-sm hidden-xs">
+        (<a role="listitem" href="{{ pathto('modules') }}">Modules</a>,
+        <a role="listitem" href="{{ pathto('languages') }}">Languages</a>,
+        <a role="listitem" href="{{ pathto('complexity') }}">Time Complexity</a>)
+      </span>
       &middot;
       <a role="listitem" href="{{ pathto('status') }}">Status</a>
       &middot;
