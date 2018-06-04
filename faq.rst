@@ -43,8 +43,8 @@ Why are the data structures immutable by default?
 
 TODO
 
-Numeric Tower
-=============
+Numerical Tower
+===============
 
 TODO
 
@@ -59,5 +59,5 @@ Yes, eventual support for these languages is planned.
 Are there any plans to support Objective-C?
 -------------------------------------------
 
-There are no plans for explicit Objective-C support, but :doc:`c` can
-certainly be used from Objective-C code.
+There are no plans for explicit Objective-C support, though :doc:`c`
+can certainly be used from Objective-C code.
