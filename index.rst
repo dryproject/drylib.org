@@ -9,6 +9,7 @@ DRYlib Manual
    tutorial
    faq
    reference
+   status
    history
    glossary
    bibliography
