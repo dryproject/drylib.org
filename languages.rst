@@ -88,176 +88,196 @@ Language Features
 =================
 
 .. list-table::
-   :widths: 16 12 12 12 12 12 12 12
+   :widths: 12 12 12 12 12 10 10 10 10
    :header-rows: 1
 
    * - Language
      - `Type Checking <https://en.wikipedia.org/wiki/Type_system#Type_checking>`__
      - `Type Safety <https://en.wikipedia.org/wiki/Type_safety>`__
      - `Memory Mgmt <https://en.wikipedia.org/wiki/Memory_management>`__
+     - `Strings <https://en.wikipedia.org/wiki/Unicode>`__
+     - `Bignums? <https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic>`__
      - `Exceptions? <https://en.wikipedia.org/wiki/Exception_handling>`__
      - `Closures? <https://en.wikipedia.org/wiki/Closure_(computer_programming)>`__
-     - `Bignums? <https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic>`__
      - `Macros? <https://en.wikipedia.org/wiki/Macro_(computer_science)>`__
 
    * - :doc:`C <c>`
      - Static
      - Weak
      - Manual
-     - No
-     - No
-     - No
-     - No
+     - ✗ bytes
+     - ✗
+     - ✗
+     - ✗
+     - ✗
 
    * - :doc:`C++ <cpp>`
      - Static
      - Weak
      - RAII/RC
-     - Yes
-     - Yes
-     - No
-     - No
+     - ✗ bytes
+     - ✗
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Common Lisp <lisp>`
      - Dynamic
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✗ UTF-{16,32} [#lisp-utf]_
+     - ✓
+     - ✓
+     - ✓
+     - ✓
 
    * - :doc:`D <d>`
      - Static
      - Weak?
      - GC/Manual
-     - Yes
-     - Yes
-     - Yes
-     - No
+     - ✓ UTF-{8,16,32}
+     - ✓
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Dart <dart>`
      - Static
      - Strong
      - GC
-     - Yes
-     - Yes
-     - No
-     - No
+     - ✗ UTF-16 [#dart-utf]_
+     - ✗
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Elixir <elixir>`
      - Dynamic
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✓ UTF-8
+     - ✓
+     - ✓
+     - ✓
+     - ✓
 
    * - :doc:`Go <go>`
      - Static
      - Strong
      - GC
-     - No [#go-exn]_
-     - Yes
-     - Yes
-     - No
+     - ✓ UTF-8
+     - ✓
+     - ✗ [#go-exn]_
+     - ✓
+     - ✗
 
    * - :doc:`Java <java>`
      - Static
      - Strong
      - GC
-     - Yes
-     - Yes [#java-fns]_
-     - Yes
-     - No
+     - ✗ UTF-16
+     - ✓
+     - ✓
+     - ✓ [#java-fns]_
+     - ✗
 
    * - :doc:`JS <js>`
      - Dynamic
      - Weak
      - GC
-     - Yes
-     - Yes
-     - No [#js-bns]_
-     - No
+     - ✗ UTF-16
+     - ✗ [#js-bns]_
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Julia <julia>`
      - Dynamic
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✓ UTF-8
+     - ✓
+     - ✓
+     - ✓
+     - ✓
 
    * - :doc:`Kotlin <kotlin>`
      - Static
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - No
+     - ✗ UTF-16
+     - ✓
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Lua <lua>`
      - Dynamic
      - Strong
      - GC
-     - No [#lua-exn]_
-     - Yes
-     - No
-     - No
+     - ✗ bytes
+     - ✗
+     - ✗ [#lua-exn]_
+     - ✓
+     - ✗
 
    * - :doc:`OCaml <ocaml>`
      - Static
      - Strong
      - GC
-     - Yes
-     - Yes
-     - No [#ocaml-bns]_
-     - No
+     - ✗ bytes
+     - ✗ [#ocaml-bns]_
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`PHP <php>`
      - Dynamic
      - Weak
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - No
+     - ✗ bytes
+     - ✓
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Python <python>`
      - Dynamic
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - No
+     - ✗ UTF-{16,32}?
+     - ✓
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Ruby <ruby>`
      - Dynamic
      - Strong
      - GC
-     - Yes
-     - Yes
-     - Yes
-     - No
+     - ✓ UTF-8
+     - ✓
+     - ✓
+     - ✓
+     - ✗
 
    * - :doc:`Rust <rust>`
      - Static
      - Strong
      - RAII/RC
-     - No
-     - Yes
-     - No [#rust-bns]_
-     - Yes
+     - ✓ UTF-8
+     - ✗ [#rust-bns]_
+     - ✗
+     - ✓
+     - ✓
 
 .. rubric:: Footnotes
 
+.. [#dart-utf]  https://github.com/dart-lang/sdk/issues/28404
 .. [#go-exn]    https://github.com/golang/go/wiki/PanicAndRecover
 .. [#java-fns]  https://dzone.com/articles/java-8-lambas-limitations-closures
 .. [#js-bns]    https://github.com/tc39/proposal-bigint
+.. [#lisp-utf]  https://www.cliki.net/Unicode%20support
 .. [#lua-exn]   http://lua-users.org/wiki/ErrorHandling
 .. [#ocaml-bns] https://github.com/ocaml/num
 .. [#rust-bns]  https://github.com/rust-num/num-bigint
