@@ -23,7 +23,7 @@ import sphinx_bootstrap_theme
 
 project = 'DRYlib'
 author  = 'Arto Bendiken'
-version = '2018-06-04'
+version = '2018-06-08'
 release = version
 
 # -- General configuration ---------------------------------------------------
