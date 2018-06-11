@@ -25,14 +25,20 @@ Rationale
 
 - Facilitates code generation for multiple target languages.
 
-
-
 Features
 ========
 
 - Provides predictable package naming across language ecosystems.
 
 - Respects local naming and coding conventions.
+
+Design
+======
+
+Naming
+------
+
+Predicate functions end with a question mark ``?``. For example, ``blank?``.
 
 See Also
 ========
