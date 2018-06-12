@@ -20,7 +20,7 @@ Getting Started
 Prerequisites
 -------------
 
-- a `C++14 <https://en.wikipedia.org/wiki/C%2B%2B14>`__ compiler
+- a `C++17 <https://en.wikipedia.org/wiki/C%2B%2B17>`__ compiler
   (Clang or GCC recommended)
 
 Installation
