@@ -7,4 +7,4 @@
 Bibliography
 ************
 
-TODO
+.. todo:: To be exported. See `sphinxcontrib-bibtex <https://sphinxcontrib-bibtex.readthedocs.io/>`__.

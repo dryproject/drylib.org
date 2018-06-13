@@ -43,6 +43,10 @@ Glossary
    `boxing <https://en.wikipedia.org/wiki/Object_type_(object-oriented_programming)#Boxing>`__
       TODO
 
+   `camel case <https://en.wikipedia.org/wiki/Camel_case>`__
+      TODO.
+      See also :term:`snake case` and :term:`Lisp case`.
+
    `character <https://en.wikipedia.org/wiki/Character_(computing)>`__
       A type containing a 21-bit Unicode code point.
       See the :doc:`base/char` type.
@@ -111,6 +115,10 @@ Glossary
    `interval <https://en.wikipedia.org/wiki/Interval_(mathematics)>`__
       See the :doc:`base/interval` type.
 
+   Lisp case
+      See https://softwareengineering.stackexchange.com/q/104468.
+      See also :term:`camel case` and :term:`snake case`.
+
    `list <https://en.wikipedia.org/wiki/List_(abstract_data_type)>`__
       A basic sequence data type.
       See the :doc:`base/list` type.
@@ -155,6 +163,9 @@ Glossary
 
    `package manager <https://en.wikipedia.org/wiki/Package_manager>`__
       TODO
+
+   Pascal case
+      See :term:`camel case`.
 
    `polyfill <https://en.wikipedia.org/wiki/Polyfill_(programming)>`__
       TODO
@@ -208,6 +219,10 @@ Glossary
       `No Silver Bullet--Essence and Accident in Software Engineering
       <https://en.wikipedia.org/wiki/No_Silver_Bullet>`__.
 
+   `snake case <https://en.wikipedia.org/wiki/Snake_case>`__
+      TODO.
+      See also :term:`camel case` and :term:`Lisp case`.
+
    `string <https://en.wikipedia.org/wiki/String_(computer_science)>`__
       A sequence of :term:`characters <character>`.
 
@@ -243,6 +258,18 @@ Glossary
       Unit of measurement.
       See the :doc:`base/unit` type.
       See also :term:`quantity`.
+
+   `URI <https://en.wikipedia.org/wiki/Uniform_Resource_Identifier>`__
+      TODO.
+      See also :term:`URL` and :term:`URN`.
+
+   `URL <https://en.wikipedia.org/wiki/URL>`__
+      TODO.
+      See also :term:`URI` and :term:`URN`.
+
+   `URN <https://en.wikipedia.org/wiki/Uniform_Resource_Name>`__
+      TODO.
+      See also :term:`URI` and :term:`URL`.
 
    `UTF-8 <https://en.wikipedia.org/wiki/UTF-8>`__
       See the :doc:`text/utf8/index` module.

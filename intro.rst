@@ -38,7 +38,46 @@ Design
 Naming
 ------
 
-Predicate functions end with a question mark ``?``. For example, ``blank?``.
+Module Naming
+^^^^^^^^^^^^^
+
+- Modules are organized in a hierarchy, with their names separated by
+  slashes (``/``), just as in :term:`URLs <URL>` and on Unix file systems.
+  For example, the module ``text/utf8`` is a submodule of the top-level
+  module ``text``.
+  When mapped to a target language, the module hierarchy and module names
+  are transformed accordingly. For example, ``text/utf8`` becomes the
+  namespace ``dry::text::utf8`` in C++, the class ``dry.text.UTF8`` in Java,
+  and the module ``DRY::Text::UTF8`` in OCaml.
+
+Type Naming
+^^^^^^^^^^^
+
+- Types are named in all lowercase, with individual words separated by
+  hyphens (``-``). For example, ``process-group``.
+  This is sometimes called `Lisp case`_.
+  When mapped to a target language, these names adhere to predominant local
+  naming conventions. For example, ``trim-left`` becomes ``process_group`` in
+  C++ (`snake case`_) and ``ProcessGroup`` in Java (upper `camel case`_).
+
+Term Naming
+^^^^^^^^^^^
+
+- Terms (constants and functions) and variables are also named in all lowercase, with
+  individual words separated by hyphens (``-``). For example, ``trim-left``.
+  When mapped to a target language, these names adhere to predominant local
+  naming conventions. For example, ``trim-left`` becomes ``trim_left()`` in
+  C++ (`snake case`_) and ``trimLeft()`` in Java (lower `camel case`_).
+
+- Predicate functions end with a question mark (``?``). For example, ``blank?``.
+  When mapped to a target language, predicate names adhere to local naming
+  conventions and omit the question mark in case it isn't permitted by the
+  language syntax. For example, ``blank?()`` in Ruby, but ``is_blank()`` in
+  C++ and ``isBlank()`` in Java.
+
+.. _Lisp case:  https://softwareengineering.stackexchange.com/q/104468
+.. _snake case: https://en.wikipedia.org/wiki/Snake_case
+.. _camel case: https://en.wikipedia.org/wiki/Camel_case
 
 See Also
 ========
