@@ -17,7 +17,7 @@ DRYlib Manual
 .. warning::
 
    **Here be dragons.**
-   This is a semi-public, pre-alpha, work-in-progress project.
+   This is a semi-public, :doc:`pre-alpha, work-in-progress <status>` project.
 
    **Caveat utilitor:**
    Assume nothing works, and you may be pleasantly surprised;

@@ -165,6 +165,10 @@ Glossary
    polyglot programming
       TODO
 
+   port
+      A DRYlib target :doc:`language <languages>`
+      (for example, :doc:`Java <java>`).
+
    predicate function
       See the :doc:`base/predicate` type.
 
