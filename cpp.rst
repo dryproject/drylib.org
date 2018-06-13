@@ -164,5 +164,16 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.cpp/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for C++.
 
    `Arto's Notes re: C++ <http://ar.to/notes/cxx>`__
+      Miscellaneous notes on C++.
+
+   `Boost <https://en.wikipedia.org/wiki/Boost_(C%2B%2B_libraries)>`__
+      A set of general utility libraries for C++.
+
+   `Dlib <https://en.wikipedia.org/wiki/Dlib>`__
+      A general purpose cross-platform C++ library.
+
+   `Threading Building Blocks (TBB) <https://en.wikipedia.org/wiki/Threading_Building_Blocks>`__
+      Intel's C++ template library for parallel programming on multi-core processors.

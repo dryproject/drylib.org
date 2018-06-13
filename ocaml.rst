@@ -128,5 +128,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.ocaml/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for OCaml.
 
    `Arto's Notes re: OCaml <http://ar.to/notes/ocaml>`__
+      Miscellaneous notes on OCaml.

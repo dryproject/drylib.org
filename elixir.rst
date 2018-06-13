@@ -128,5 +128,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.ex/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Elixir.
 
    `Arto's Notes re: Elixir <http://ar.to/notes/elixir>`__
+      Miscellaneous notes on Elixir.

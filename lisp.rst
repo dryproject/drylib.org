@@ -172,5 +172,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.lisp/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Common Lisp.
 
    `Arto's Notes re: Common Lisp <http://ar.to/notes/common-lisp>`__
+      Miscellaneous notes on Common Lisp.

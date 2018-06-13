@@ -161,5 +161,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.lua/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Lua.
 
    `Arto's Notes re: Lua <http://ar.to/notes/lua>`__
+      Miscellaneous notes on Lua.

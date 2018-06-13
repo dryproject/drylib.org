@@ -129,5 +129,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.py/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Python.
 
    `Arto's Notes re: Python <http://ar.to/notes/python>`__
+      Miscellaneous notes on Python.

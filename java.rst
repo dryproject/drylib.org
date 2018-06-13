@@ -175,5 +175,13 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.java/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Java.
 
    `Arto's Notes re: Java <http://ar.to/notes/java>`__
+      Miscellaneous notes on Java.
+
+   `Apache Commons <https://en.wikipedia.org/wiki/Apache_Commons>`__
+      A set of common libraries for Java.
+
+   `Google Guava <https://en.wikipedia.org/wiki/Google_Guava>`__
+      A set of common libraries for Java.

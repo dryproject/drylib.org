@@ -160,5 +160,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.rb/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Ruby.
 
    `Arto's Notes re: Ruby <http://ar.to/notes/ruby>`__
+      Miscellaneous notes on Ruby.

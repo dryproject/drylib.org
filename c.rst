@@ -151,5 +151,21 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.c/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for C.
 
    `Arto's Notes re: C <http://ar.to/notes/c>`__
+      Miscellaneous notes on C.
+
+   `Checked C <https://github.com/Microsoft/checkedc/wiki>`__
+      A superset of C that adds static and dynamic checking to detect and
+      prevent common programming errors such as buffer overruns and
+      out-of-bounds memory accesses.
+
+   `GLib <https://en.wikipedia.org/wiki/GLib>`__
+      A comprehensive general-purpose utility library for C.
+
+   `Apache Portable Runtime (APR) <https://en.wikipedia.org/wiki/Apache_Portable_Runtime>`__
+      A cross-platform abstraction & utility library for C.
+
+   `Netscape Portable Runtime (NSPR) <https://en.wikipedia.org/wiki/Netscape_Portable_Runtime>`__
+      A cross-platform abstraction & utility library for C.

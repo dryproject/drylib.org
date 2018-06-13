@@ -128,5 +128,10 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.dart/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Dart.
 
    `Arto's Notes re: Dart <http://ar.to/notes/dart>`__
+      Miscellaneous notes on Dart.
+
+   `Quiver <https://github.com/google/quiver-dart>`__
+      A set of utility libraries for Dart.

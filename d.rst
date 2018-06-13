@@ -148,5 +148,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.d/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for D.
 
    `Arto's Notes re: D <http://ar.to/notes/d>`__
+      Miscellaneous notes on D.

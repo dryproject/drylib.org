@@ -183,5 +183,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.php/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for PHP.
 
    `Arto's Notes re: PHP <http://ar.to/notes/php>`__
+      Miscellaneous notes on PHP.

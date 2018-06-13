@@ -128,5 +128,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.js/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for JS.
 
    `Arto's Notes re: JS <http://ar.to/notes/js>`__
+      Miscellaneous notes on JS.

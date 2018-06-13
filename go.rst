@@ -151,5 +151,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.go/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Go.
 
    `Arto's Notes re: Go <http://ar.to/notes/go>`__
+      Miscellaneous notes on Go.

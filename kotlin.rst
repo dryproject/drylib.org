@@ -148,5 +148,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.kt/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Kotlin.
 
    `Arto's Notes re: Kotlin <http://ar.to/notes/kotlin>`__
+      Miscellaneous notes on Kotlin.

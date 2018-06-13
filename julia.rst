@@ -151,5 +151,7 @@ See Also
 .. seealso::
 
    `Changelog <https://github.com/dryproject/drylib.jl/blob/master/CHANGES.rst>`__ on GitHub
+      The comprehensive version history and release notes for DRYlib for Julia.
 
    `Arto's Notes re: Julia <http://ar.to/notes/julia>`__
+      Miscellaneous notes on Julia.
