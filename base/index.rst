@@ -46,10 +46,11 @@ Types
    list
    map
    matrix
+   nat
    natural
    none
    number
-   option
+   optional
    predicate
    quantity
    rational
@@ -58,6 +59,7 @@ Types
    scalar
    seq
    set
+   string
    symbol
    tensor
    tuple
@@ -98,10 +100,11 @@ Types
    :doc:`list <list>`                     List.
    :doc:`map <map>`                       Map.
    :doc:`matrix <matrix>`                 Matrix (a 2D tensor).
+   :doc:`nat <nat>`                       Natural number (native size).
    :doc:`natural <natural>`               Natural number (arbitrary size).
    :doc:`none <none>`                     The empty type. No other types are subtypes of ``none``.
    :doc:`number <number>`                 Number.
-   :doc:`option <option>`                 Optional value.
+   :doc:`optional <optional>`             Optional value.
    :doc:`predicate <predicate>`           Predicate function.
    :doc:`quantity <quantity>`             Quantity.
    :doc:`rational <rational>`             Rational number (arbitrary size).
@@ -110,6 +113,7 @@ Types
    :doc:`scalar <scalar>`                 Scalar (a 0D tensor).
    :doc:`seq <seq>`                       Sequence.
    :doc:`set <set>`                       Set.
+   :doc:`string <string>`                 String.
    :doc:`symbol <symbol>`                 Symbol.
    :doc:`tensor <tensor>`                 Tensor.
    :doc:`tuple <tuple>`                   Compound type of a fixed number of terms.

@@ -17,3 +17,11 @@ Description
 -----------
 
 .. dry:module:: math
+
+Modules
+-------
+
+.. toctree::
+   :maxdepth: 1
+
+   blas <blas/index>

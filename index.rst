@@ -52,7 +52,8 @@ Modules
      - Generic data structures.
 
    * - :doc:`ffi <ffi/index>`:
-       :doc:`ffi/libc <ffi/libc/index>`
+       :doc:`ffi/libc <ffi/libc/index>`,
+       :doc:`... <ffi/index>`
      - Foreign-function interfaces (FFI).
 
    * - :doc:`geo <geo/index>`
@@ -68,7 +69,8 @@ Modules
    * - :doc:`logic <logic/index>`
      - Logical operations.
 
-   * - :doc:`math <math/index>`
+   * - :doc:`math <math/index>`:
+       :doc:`math/blas <math/blas/index>`
      - Mathematical operations.
 
    * - :doc:`media <media/index>`:

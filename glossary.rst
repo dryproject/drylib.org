@@ -152,10 +152,10 @@ Glossary
       TODO
 
    `option type <https://en.wikipedia.org/wiki/Option_type>`__
-      See the :doc:`base/option` type.
+      See the :doc:`base/optional` type.
 
    optional value
-      See the :doc:`base/option` type.
+      See the :doc:`base/optional` type.
 
    package
       TODO
