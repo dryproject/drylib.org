@@ -38,6 +38,11 @@ Design
 Naming
 ------
 
+Our objective in naming and designing name mappings isn't 100% uniformity
+across target languages, but rather merely maximizing predictability across
+ports while conforming to the predominant conventions of each target
+language.
+
 Module Naming
 ^^^^^^^^^^^^^
 
@@ -46,7 +51,7 @@ Module Naming
   For example, the module ``text/utf8`` is a submodule of the top-level
   module ``text``.
   When mapped to a target language, the module hierarchy and module names
-  are transformed accordingly. For example, ``text/utf8`` becomes the
+  are transformed appropriately. For example, ``text/utf8`` becomes the
   namespace ``dry::text::utf8`` in C++, the class ``dry.text.UTF8`` in Java,
   and the module ``DRY::Text::UTF8`` in OCaml.
 
@@ -54,30 +59,31 @@ Type Naming
 ^^^^^^^^^^^
 
 - Types are named in all lowercase, with individual words separated by
-  hyphens (``-``). For example, ``process-group``.
-  This is sometimes called `Lisp case`_.
-  When mapped to a target language, these names adhere to predominant local
-  naming conventions. For example, ``trim-left`` becomes ``process_group`` in
-  C++ (`snake case`_) and ``ProcessGroup`` in Java (upper `camel case`_).
+  hyphens (``-``).
+  (This naming convention is sometimes called :term:`Lisp case`.)
+  For example, ``sys/posix/process-group`` is the fully-qualified name for
+  the ``process-group`` type in the ``sys/posix`` module.
+  When mapped to a target language, type names adhere to predominant local
+  naming conventions. For example, ``process-group`` becomes
+  ``process_group`` in C++ (:term:`snake case`) and ``ProcessGroup`` in Java
+  (upper :term:`camel case`, also known as :term:`Pascal case`).
 
 Term Naming
 ^^^^^^^^^^^
 
-- Terms (constants and functions) and variables are also named in all lowercase, with
-  individual words separated by hyphens (``-``). For example, ``trim-left``.
+- Terms (constants, functions, and function parameters) are also named in
+  all lowercase, with individual words separated by hyphens (``-``).
+  For example, ``trim-left``.
   When mapped to a target language, these names adhere to predominant local
   naming conventions. For example, ``trim-left`` becomes ``trim_left()`` in
-  C++ (`snake case`_) and ``trimLeft()`` in Java (lower `camel case`_).
+  C++ (:term:`snake case`) and ``trimLeft()`` in Java (lower :term:`camel
+  case`).
 
 - Predicate functions end with a question mark (``?``). For example, ``blank?``.
   When mapped to a target language, predicate names adhere to local naming
-  conventions and omit the question mark in case it isn't permitted by the
-  language syntax. For example, ``blank?()`` in Ruby, but ``is_blank()`` in
-  C++ and ``isBlank()`` in Java.
-
-.. _Lisp case:  https://softwareengineering.stackexchange.com/q/104468
-.. _snake case: https://en.wikipedia.org/wiki/Snake_case
-.. _camel case: https://en.wikipedia.org/wiki/Camel_case
+  conventions and omit the trailing question mark in case it isn't permitted
+  by the language syntax. For example, ``blank?()`` in Ruby verbatim, but
+  ``is_blank()`` in C++ and ``isBlank()`` in Java.
 
 See Also
 ========
