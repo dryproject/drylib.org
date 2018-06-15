@@ -54,6 +54,15 @@ Caveats
   ``dry::bool``), as the types in question are identical. And in case you
   prefer ``using namespace dry``, the distinction becomes moot altogether.
 
+Naming
+------
+
+- :term:`Predicate functions <predicate function>` are named in the usual
+  ``is_foobar()`` pattern that you would expect (as described in the
+  :doc:`intro`), with the exception that predicates named ``empty?`` are
+  translated into ``empty()`` instead of ``is_empty()``.
+  This is in keeping with the C++ standard library naming.
+
 Reference
 =========
 
