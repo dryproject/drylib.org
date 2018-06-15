@@ -17,3 +17,21 @@ Description
 -----------
 
 .. dry:module:: std/itu
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   oid
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`oid <oid>`
+     - TODO

@@ -17,3 +17,25 @@ Description
 -----------
 
 .. dry:module:: time
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   duration
+   instant
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`duration <duration>`
+     - TODO
+
+   * - :doc:`instant <instant>`
+     - TODO

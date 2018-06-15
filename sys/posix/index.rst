@@ -17,3 +17,61 @@ Description
 -----------
 
 .. dry:module:: sys/posix
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   error
+   file
+   group
+   locale
+   mode
+   path
+   process
+   process-group
+   signal
+   thread
+   user
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`error <error>`
+     - TODO
+
+   * - :doc:`file <file>`
+     - TODO
+
+   * - :doc:`group <group>`
+     - TODO
+
+   * - :doc:`locale <locale>`
+     - TODO
+
+   * - :doc:`mode <mode>`
+     - TODO
+
+   * - :doc:`path <path>`
+     - TODO
+
+   * - :doc:`process <process>`
+     - TODO
+
+   * - :doc:`process-group <process-group>`
+     - TODO
+
+   * - :doc:`signal <signal>`
+     - TODO
+
+   * - :doc:`thread <thread>`
+     - TODO
+
+   * - :doc:`user <user>`
+     - TODO

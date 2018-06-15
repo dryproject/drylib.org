@@ -17,3 +17,25 @@ Description
 -----------
 
 .. dry:module:: sys/linux
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   error
+   signal
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`error <error>`
+     - TODO
+
+   * - :doc:`signal <signal>`
+     - TODO

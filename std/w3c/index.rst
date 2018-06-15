@@ -17,3 +17,21 @@ Description
 -----------
 
 .. dry:module:: std/w3c
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   curie
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`curie <curie>`
+     - TODO

@@ -17,3 +17,21 @@ Description
 -----------
 
 .. dry:module:: net/ipv6
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   address
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`address <address>`
+     - TODO

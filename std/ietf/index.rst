@@ -17,3 +17,37 @@ Description
 -----------
 
 .. dry:module:: std/ietf
+
+Types
+-----
+
+.. toctree::
+   :hidden:
+
+   iri
+   uri
+   url
+   urn
+   uuid
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Description
+
+   * - :doc:`iri <iri>`
+     - TODO
+
+   * - :doc:`uri <uri>`
+     - TODO
+
+   * - :doc:`url <url>`
+     - TODO
+
+   * - :doc:`urn <urn>`
+     - TODO
+
+   * - :doc:`uuid <uuid>`
+     - TODO

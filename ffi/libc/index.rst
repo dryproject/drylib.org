@@ -17,3 +17,29 @@ Description
 -----------
 
 .. dry:module:: ffi/libc
+
+Functions
+---------
+
+.. toctree::
+   :hidden:
+
+   abort
+   exit
+   rand
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Function
+     - Description
+
+   * - :doc:`abort <abort>`
+     -
+
+   * - :doc:`exit <exit>`
+     -
+
+   * - :doc:`rand <rand>`
+     -
