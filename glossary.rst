@@ -23,6 +23,9 @@ Glossary
    `ASCII <https://en.wikipedia.org/wiki/ASCII>`__
       See the :doc:`text/ascii/index` module.
 
+   `await <https://en.wikipedia.org/wiki/Await>`__
+      TODO.
+
    `big-O notation <https://en.wikipedia.org/wiki/Big_O_notation>`__
       See the :doc:`complexity` chapter.
 
@@ -41,7 +44,7 @@ Glossary
       See :term:`boxing`.
 
    `boxing <https://en.wikipedia.org/wiki/Object_type_(object-oriented_programming)#Boxing>`__
-      TODO
+      TODO.
 
    `camel case <https://en.wikipedia.org/wiki/Camel_case>`__
       TODO.
@@ -53,28 +56,50 @@ Glossary
       See also :term:`string`.
 
    `class <https://en.wikipedia.org/wiki/Class_(computer_programming)>`__
-      TODO
+      TODO.
 
    `closure <https://en.wikipedia.org/wiki/Closure_(computer_programming)>`__
-      TODO
+      TODO.
 
    `code generation <https://en.wikipedia.org/wiki/Code_generation_(compiler)>`__
-      TODO
+      TODO.
 
    codegen
       See :term:`code generation`.
 
    `collection <https://en.wikipedia.org/wiki/Collection_(abstract_data_type)>`__
-      TODO
+      TODO.
 
    `complex number <https://en.wikipedia.org/wiki/Complex_number>`__
       See the :doc:`base/complex` type.
+
+   `continuation <https://en.wikipedia.org/wiki/Continuation>`__
+      TODO.
+      See also :term:`coroutine`, :term:`exception`, and :term:`generator`.
+
+   `continuation-passing style <https://en.wikipedia.org/wiki/Continuation-passing_style>`__
+      TODO.
+      See also :term:`continuation`.
+
+   `control flow <https://en.wikipedia.org/wiki/Control_flow>`__
+      See also :term:`continuation`.
+
+   `coroutine <https://en.wikipedia.org/wiki/Coroutine>`__
+      TODO.
+      See also :term:`continuation` and :term:`generator`.
+
+   CPS
+      See :term:`continuation-passing style`.
 
    `datum <https://en.wikipedia.org/wiki/Data>`__
       See the :doc:`base/datum` type.
 
    error value
       See the :doc:`base/error` type.
+
+   `exception <https://en.wikipedia.org/wiki/Exception_handling>`__
+      TODO.
+      See also :term:`continuation`.
 
    `FAQ <https://en.wikipedia.org/wiki/FAQ>`__
       Frequently asked questions.
@@ -96,6 +121,10 @@ Glossary
    `function <https://en.wikipedia.org/wiki/Function_(mathematics)>`__
       See the :doc:`base/function` type.
 
+   `generator <https://en.wikipedia.org/wiki/Generator_(computer_programming)>`__
+      TODO.
+      See also :term:`coroutine`.
+
    `I/O <https://en.wikipedia.org/wiki/Input/output>`__
       Input/output.
       See the :doc:`io/index` module.
@@ -110,7 +139,7 @@ Glossary
       See :term:`integer overflow`.
 
    `interface <https://en.wikipedia.org/wiki/Protocol_(object-oriented_programming)>`__
-      TODO
+      TODO.
 
    `interval <https://en.wikipedia.org/wiki/Interval_(mathematics)>`__
       See the :doc:`base/interval` type.
@@ -143,13 +172,13 @@ Glossary
       See the :doc:`base/natural` type.
 
    null safety
-      TODO
+      TODO.
 
    number
       See complex number, ...
 
    `numerical tower <https://en.wikipedia.org/wiki/Numerical_tower>`__
-      TODO
+      TODO.
 
    `option type <https://en.wikipedia.org/wiki/Option_type>`__
       See the :doc:`base/optional` type.
@@ -158,23 +187,23 @@ Glossary
       See the :doc:`base/optional` type.
 
    package
-      TODO
+      TODO.
       See also :term:`package manager` and :term:`module`.
 
    `package manager <https://en.wikipedia.org/wiki/Package_manager>`__
-      TODO
+      TODO.
 
    Pascal case
       See :term:`camel case`.
 
    `polyfill <https://en.wikipedia.org/wiki/Polyfill_(programming)>`__
-      TODO
+      TODO.
 
    polyglot
       Someone who knows and is able to use several languages.
 
    polyglot programming
-      TODO
+      TODO.
 
    port
       A DRYlib target :doc:`language <languages>`
@@ -206,7 +235,7 @@ Glossary
       See the :doc:`base/scalar` type.
 
    `sentinel value <https://en.wikipedia.org/wiki/Sentinel_value>`__
-      TODO
+      TODO.
 
    sequence
       See the :doc:`base/seq` type.
@@ -236,7 +265,7 @@ Glossary
       See the :doc:`base/tensor` type.
 
    term
-      TODO
+      TODO.
 
    time-complexity
       See the :doc:`complexity` chapter.
@@ -249,7 +278,7 @@ Glossary
       See the :doc:`base/tuple` type.
 
    type
-      TODO
+      TODO.
 
    unboxed value
       See :term:`boxing`.
@@ -275,7 +304,7 @@ Glossary
       See the :doc:`text/utf8/index` module.
 
    `value <https://en.wikipedia.org/wiki/Value_(computer_science)>`__
-      TODO
+      TODO.
 
    `vector <https://en.wikipedia.org/wiki/Vector_space>`__
       A 1D :term:`tensor`.
