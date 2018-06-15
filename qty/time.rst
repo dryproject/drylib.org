@@ -1,6 +1,6 @@
-.. index:: pair: qty/time; type
-
 qty/time
 ========
+
+.. dry:type:: qty/time
 
 Time.

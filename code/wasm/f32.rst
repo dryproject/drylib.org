@@ -1,0 +1,6 @@
+code/wasm/f32
+=============
+
+.. dry:type:: code/wasm/f32
+
+Floating-point number (32-bit single-precision).

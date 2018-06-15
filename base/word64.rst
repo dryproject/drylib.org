@@ -1,5 +1,3 @@
-.. index:: pair: base/word64; type
-
 base/word64
 ===========
 

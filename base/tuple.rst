@@ -1,5 +1,3 @@
-.. index:: pair: base/tuple; type
-
 base/tuple
 ==========
 

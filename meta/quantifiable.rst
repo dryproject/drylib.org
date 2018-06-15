@@ -1,6 +1,6 @@
-.. index:: pair: meta/quantifiable; type
-
 meta/quantifiable
 =================
+
+.. dry:type:: meta/quantifiable
 
 Something quantifiable.

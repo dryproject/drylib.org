@@ -1,5 +1,3 @@
-.. index:: pair: base/int; type
-
 base/int
 ========
 

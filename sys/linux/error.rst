@@ -1,6 +1,6 @@
-.. index:: pair: sys/linux/error; type
-
 sys/linux/error
 ===============
+
+.. dry:type:: sys/linux/error
 
 TODO

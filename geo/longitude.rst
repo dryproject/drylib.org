@@ -1,6 +1,6 @@
-.. index:: pair: geo/longitude; type
-
 geo/longitude
 =============
+
+.. dry:type:: geo/longitude
 
 A longitude angle.

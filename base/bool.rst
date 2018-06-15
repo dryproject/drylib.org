@@ -1,5 +1,3 @@
-.. index:: pair: base/bool; type
-
 base/bool
 =========
 

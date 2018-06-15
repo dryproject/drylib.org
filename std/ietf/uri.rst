@@ -1,6 +1,6 @@
-.. index:: pair: std/ietf/uri; type
-
 std/ietf/uri
 ============
+
+.. dry:type:: std/ietf/uri
 
 TODO

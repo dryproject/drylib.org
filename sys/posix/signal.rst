@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/signal; type
-
 sys/posix/signal
 ================
+
+.. dry:type:: sys/posix/signal
 
 TODO

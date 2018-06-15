@@ -1,5 +1,3 @@
-.. index:: pair: base/vector; type
-
 base/vector
 ===========
 

@@ -1,5 +1,3 @@
-.. index:: pair: base/optional; type
-
 base/optional
 =============
 

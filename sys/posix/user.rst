@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/user; type
-
 sys/posix/user
 ==============
+
+.. dry:type:: sys/posix/user
 
 TODO

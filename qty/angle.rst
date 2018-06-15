@@ -1,6 +1,6 @@
-.. index:: pair: qty/angle; type
-
 qty/angle
 =========
+
+.. dry:type:: qty/angle
 
 An angle.

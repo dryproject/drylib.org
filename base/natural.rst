@@ -1,5 +1,3 @@
-.. index:: pair: base/natural; type
-
 base/natural
 ============
 

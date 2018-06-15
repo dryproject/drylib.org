@@ -1,6 +1,6 @@
-.. index:: pair: geo/altitude; type
-
 geo/altitude
 ============
+
+.. dry:type:: geo/altitude
 
 An altitude.

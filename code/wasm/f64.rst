@@ -1,0 +1,6 @@
+code/wasm/f64
+=============
+
+.. dry:type:: code/wasm/f64
+
+Floating-point number (64-bit double-precision).

@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/thread; type
-
 sys/posix/thread
 ================
+
+.. dry:type:: sys/posix/thread
 
 TODO

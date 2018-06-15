@@ -1,6 +1,6 @@
-.. index:: pair: qty/length; type
-
 qty/length
 ==========
+
+.. dry:type:: qty/length
 
 Length.

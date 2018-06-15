@@ -1,6 +1,6 @@
-.. index:: pair: time/duration; type
-
 time/duration
 =============
+
+.. dry:type:: time/duration
 
 TODO

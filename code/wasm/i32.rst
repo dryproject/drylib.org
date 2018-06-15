@@ -1,0 +1,6 @@
+code/wasm/i32
+=============
+
+.. dry:type:: code/wasm/i32
+
+Machine word (32-bit).

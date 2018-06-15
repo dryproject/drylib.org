@@ -1,5 +1,3 @@
-.. index:: pair: base/nat; type
-
 base/nat
 ========
 

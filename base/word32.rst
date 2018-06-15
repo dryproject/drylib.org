@@ -1,5 +1,3 @@
-.. index:: pair: base/word32; type
-
 base/word32
 ===========
 

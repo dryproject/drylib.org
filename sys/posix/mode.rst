@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/mode; type
-
 sys/posix/mode
 ==============
+
+.. dry:type:: sys/posix/mode
 
 TODO

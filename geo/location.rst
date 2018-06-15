@@ -1,6 +1,6 @@
-.. index:: pair: geo/location; type
-
 geo/location
 ============
+
+.. dry:type:: geo/location
 
 TODO

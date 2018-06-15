@@ -1,6 +1,6 @@
-.. index:: pair: qty/mass; type
-
 qty/mass
 ========
+
+.. dry:type:: qty/mass
 
 Mass.

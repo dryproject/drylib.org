@@ -1,0 +1,6 @@
+code/wasm/i64
+=============
+
+.. dry:type:: code/wasm/i64
+
+Machine word (64-bit).

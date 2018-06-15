@@ -1,5 +1,3 @@
-.. index:: pair: base/scalar; type
-
 base/scalar
 ===========
 

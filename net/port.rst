@@ -1,6 +1,6 @@
-.. index:: pair: net/port; type
-
 net/port
 ========
+
+.. dry:type:: net/port
 
 TODO

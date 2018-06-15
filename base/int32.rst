@@ -1,5 +1,3 @@
-.. index:: pair: base/int32; type
-
 base/int32
 ==========
 

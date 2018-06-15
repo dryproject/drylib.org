@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/group; type
-
 sys/posix/group
 ===============
+
+.. dry:type:: sys/posix/group
 
 TODO

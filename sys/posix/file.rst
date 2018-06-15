@@ -1,6 +1,6 @@
-.. index:: pair: sys/posix/file; type
-
 sys/posix/file
 ==============
+
+.. dry:type:: sys/posix/file
 
 TODO

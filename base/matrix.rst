@@ -1,5 +1,3 @@
-.. index:: pair: base/matrix; type
-
 base/matrix
 ===========
 

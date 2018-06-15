@@ -1,5 +1,3 @@
-.. index:: pair: base/word8; type
-
 base/word8
 ==========
 
