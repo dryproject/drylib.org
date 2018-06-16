@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const bool result = dry::text::ascii::equals(string1, string2);
 
 Go
 ^^

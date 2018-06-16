@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const bool result = dry::text::ascii::ends_with(string, suffix);
 
 Go
 ^^

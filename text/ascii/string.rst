@@ -51,7 +51,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const dry::string string = dry::text::ascii::make_string("Hello, world!");
 
 Go
 ^^

@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const bool result = dry::text::ascii::starts_with(string, prefix);
 
 Go
 ^^

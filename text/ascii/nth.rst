@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const auto result = dry::text::ascii::nth(string, 0);
 
 Go
 ^^

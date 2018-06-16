@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const dry::nat result = dry::text::ascii::size(string);
 
 Go
 ^^

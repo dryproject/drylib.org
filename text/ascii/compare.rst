@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const int result = dry::text::ascii::compare(string1, string2);
 
 Go
 ^^

@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const bool result = dry::text::ascii::is_blank(string);
 
 Go
 ^^

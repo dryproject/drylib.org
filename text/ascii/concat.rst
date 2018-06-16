@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const dry::string output = dry::text::ascii::concat(input1, input2);
 
 Go
 ^^

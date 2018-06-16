@@ -47,7 +47,7 @@ C++
 
 .. code-block:: c++
 
-   bool result = dry::text::ascii::empty(string);
+   const bool result = dry::text::ascii::empty(string);
 
 Go
 ^^
@@ -61,7 +61,7 @@ Java
 
 .. code-block:: java
 
-   boolean result = dry.text.ASCII.isEmpty(string);
+   final boolean result = dry.text.ASCII.isEmpty(string);
 
 OCaml
 ^^^^^

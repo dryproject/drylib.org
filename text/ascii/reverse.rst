@@ -45,7 +45,7 @@ C++
 
 .. code-block:: c++
 
-   // TODO
+   const dry::string output = dry::text::ascii::reverse(input);
 
 Go
 ^^
