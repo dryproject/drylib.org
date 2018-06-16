@@ -2,17 +2,9 @@
 DRYlib Manual
 #############
 
-.. toctree::
-   :hidden:
+.. raw:: latex
 
-   intro
-   tutorial
-   faq
-   reference
-   status
-   history
-   glossary
-   bibliography
+   \part{Manual}
 
 .. warning::
 
@@ -180,3 +172,15 @@ Languages
 
    * - :doc:`Rust <rust>`
      - ``extern crate drylib as dry;``
+
+.. toctree::
+   :hidden:
+
+   intro
+   tutorial
+   faq
+   reference
+   status
+   history
+   glossary
+   bibliography

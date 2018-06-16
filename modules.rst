@@ -5,30 +5,6 @@
 Module Reference
 ****************
 
-.. toctree::
-   :hidden:
-
-   base/index
-   bits/index
-   code/index
-   crypto/index
-   data/index
-   ffi/index
-   geo/index
-   io/index
-   lang/index
-   logic/index
-   math/index
-   media/index
-   meta/index
-   net/index
-   qty/index
-   std/index
-   sys/index
-   text/index
-   time/index
-   util/index
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -122,3 +98,27 @@ Module Reference
 
    * - :doc:`util <util/index>`
      - Miscellaneous utilities.
+
+.. toctree::
+   :hidden:
+
+   base/index
+   bits/index
+   code/index
+   crypto/index
+   data/index
+   ffi/index
+   geo/index
+   io/index
+   lang/index
+   logic/index
+   math/index
+   media/index
+   meta/index
+   net/index
+   qty/index
+   std/index
+   sys/index
+   text/index
+   time/index
+   util/index

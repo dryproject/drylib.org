@@ -5,27 +5,6 @@
 Language Reference
 ******************
 
-.. toctree::
-   :hidden:
-
-   c
-   cpp
-   lisp
-   d
-   dart
-   elixir
-   go
-   java
-   js
-   julia
-   kotlin
-   lua
-   ocaml
-   php
-   python
-   ruby
-   rust
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -281,3 +260,24 @@ Language Features
 .. [#lua-exn]   http://lua-users.org/wiki/ErrorHandling
 .. [#ocaml-bns] https://github.com/ocaml/num
 .. [#rust-bns]  https://github.com/rust-num/num-bigint
+
+.. toctree::
+   :hidden:
+
+   c
+   cpp
+   lisp
+   d
+   dart
+   elixir
+   go
+   java
+   js
+   julia
+   kotlin
+   lua
+   ocaml
+   php
+   python
+   ruby
+   rust
