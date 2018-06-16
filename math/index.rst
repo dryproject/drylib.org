@@ -22,9 +22,19 @@ Modules
 -------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    blas <blas/index>
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Module
+     - Description
+
+   * - :doc:`blas <blas/index>`
+     -
 
 Functions
 ---------

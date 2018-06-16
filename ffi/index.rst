@@ -22,7 +22,7 @@ Modules
 -------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    blas <blas/index>
    curl <curl/index>
@@ -31,3 +31,31 @@ Modules
    libc <libc/index>
    sqlite3 <sqlite3/index>
    vulkan <vulkan/index>
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Module
+     - Description
+
+   * - :doc:`blas <blas/index>`
+     -
+
+   * - :doc:`curl <curl/index>`
+     -
+
+   * - :doc:`dl <dl/index>`
+     -
+
+   * - :doc:`fftw3 <fftw3/index>`
+     -
+
+   * - :doc:`libc <libc/index>`
+     -
+
+   * - :doc:`sqlite3 <sqlite3/index>`
+     -
+
+   * - :doc:`vulkan <vulkan/index>`
+     -

@@ -1,8 +1,0 @@
-# ffi
-blas/index
-curl/index
-dl/index
-fftw3/index
-libc/index
-sqlite3/index
-vulkan/index

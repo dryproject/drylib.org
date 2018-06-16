@@ -1,4 +1,0 @@
-# media
-audio/index
-image/index
-video/index

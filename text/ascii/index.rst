@@ -79,7 +79,7 @@ Functions
      -
 
    * - :doc:`empty? <empty?>`
-     -
+     - Checks if a string is empty (has length zero).
 
    * - :doc:`ends-with? <ends-with?>`
      -

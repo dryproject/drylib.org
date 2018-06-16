@@ -22,7 +22,20 @@ Modules
 -------
 
 .. toctree::
-   :maxdepth: 1
+   :hidden:
 
    linux <linux/index>
    posix <posix/index>
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Module
+     - Description
+
+   * - :doc:`linux <linux/index>`
+     -
+
+   * - :doc:`posix <posix/index>`
+     -
