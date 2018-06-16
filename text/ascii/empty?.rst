@@ -1,3 +1,5 @@
+:tocdepth: 1
+
 text/ascii/empty?
 =================
 
@@ -23,7 +25,7 @@ Implementations
    :header-rows: 1
 
    * - Language
-     - Signature
+     - Declaration
 
    * - :doc:`C++ </cpp>`
      - ``bool dry::text::ascii::empty(const dry::string& string)``
