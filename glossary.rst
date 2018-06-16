@@ -32,6 +32,11 @@ Glossary
    `bignum <https://en.wikipedia.org/wiki/Arbitrary-precision_arithmetic>`__
       See also :term:`fixnum`.
 
+   `binary function <https://en.wikipedia.org/wiki/Binary_function>`__
+      A function that takes two arguments.
+      See also :term:`nullary function`, :term:`unary function`, and
+      :term:`ternary function`.
+
    `bit <https://en.wikipedia.org/wiki/Bit>`__
       A type containing the values one (``1``) and zero (``0``).
       See the :doc:`base/bit` type.
@@ -174,6 +179,11 @@ Glossary
    null safety
       TODO.
 
+   `nullary function <https://en.wikipedia.org/wiki/Arity#Nullary>`__
+      A function that takes no arguments.
+      See also :term:`unary function`, :term:`binary function`, and
+      :term:`ternary function`.
+
    number
       See complex number, ...
 
@@ -267,6 +277,11 @@ Glossary
    term
       TODO.
 
+   `ternary function <https://en.wikipedia.org/wiki/Ternary_operation>`__
+      A function that takes three arguments.
+      See also :term:`nullary function`, :term:`unary function`, and
+      :term:`binary function`.
+
    time-complexity
       See the :doc:`complexity` chapter.
 
@@ -282,6 +297,11 @@ Glossary
 
    unboxed value
       See :term:`boxing`.
+
+   `unary function <https://en.wikipedia.org/wiki/Unary_function>`__
+      A function that takes one argument.
+      See also :term:`nullary function`, :term:`binary function`, and
+      :term:`ternary function`.
 
    unit
       Unit of measurement.

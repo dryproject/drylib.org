@@ -23,6 +23,8 @@ Rationale
 - Enables network effects to cross different libraries as well as different
   languages.
 
+- Facilitates rewriting code from one language to another.
+
 - Facilitates code generation for multiple target languages.
 
 Features
