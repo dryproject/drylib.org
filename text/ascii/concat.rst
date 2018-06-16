@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``dry::string dry::text::ascii::concat(const dry::string& string1, const dry::string& string2)``
 
    * - :doc:`Go </go>`
      - ``// TODO``

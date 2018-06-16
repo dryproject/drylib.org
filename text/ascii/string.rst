@@ -17,6 +17,10 @@ Description
 
    ASCII string.
 
+.. dry:function:: text/ascii/string
+
+   Constructs an ASCII string.
+
 Implementations
 ---------------
 
@@ -28,7 +32,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``dry::string dry::text::ascii::make_string(const char*[, dry::nat size])``
 
    * - :doc:`Go </go>`
      - ``// TODO``

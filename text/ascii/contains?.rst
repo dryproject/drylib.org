@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``bool dry::text::ascii::contains(const dry::string& string, dry::char_ character)``
 
    * - :doc:`Go </go>`
      - ``// TODO``

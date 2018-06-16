@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``dry::string dry::text::ascii::trim_right(const dry::string& string)``
 
    * - :doc:`Go </go>`
      - ``// TODO``

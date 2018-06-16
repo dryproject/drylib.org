@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``int dry::text::ascii::compare(const dry::string& string1, const dry::string& string2)``
 
    * - :doc:`Go </go>`
      - ``// TODO``

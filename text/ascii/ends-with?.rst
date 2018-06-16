@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``bool dry::text::ascii::ends_with(const dry::string& string, const dry::string& suffix)``
 
    * - :doc:`Go </go>`
      - ``// TODO``

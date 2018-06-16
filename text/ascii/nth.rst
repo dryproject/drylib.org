@@ -26,7 +26,7 @@ Implementations
      - Declaration
 
    * - :doc:`C++ </cpp>`
-     - ``// TODO``
+     - ``dry::optional<dry::char_> dry::text::ascii::nth(const dry::string& string, dry::nat index)``
 
    * - :doc:`Go </go>`
      - ``// TODO``
