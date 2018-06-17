@@ -40,3 +40,10 @@ RewriteEngine on
 RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 </IfModule>
+
+# See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+#RewriteEngine on
+RewriteCond %{QUERY_STRING} ^\.html$
+RewriteRule ^(.*)$ /$1\%3F.html? [NE,R=301,L]
+</IfModule>
