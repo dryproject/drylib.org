@@ -21,11 +21,6 @@ Description
 Modules
 -------
 
-.. toctree::
-   :hidden:
-
-   blas <blas/index>
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -38,60 +33,6 @@ Modules
 
 Functions
 ---------
-
-.. toctree::
-   :hidden:
-
-   abs
-   acos
-   acosh
-   add
-   asin
-   asinh
-   atan
-   atan2
-   atanh
-   cbrt
-   ceil
-   clamp
-   cmp
-   cos
-   cosh
-   div
-   e
-   exp
-   exp2
-   exp10
-   expm1
-   floor
-   fma
-   gcd
-   hypot
-   i
-   lcm
-   log
-   log1p
-   log2
-   log10
-   max
-   min
-   minmax
-   mod
-   mul
-   nan
-   neg
-   pi
-   pow
-   rem
-   round
-   sign
-   sin
-   sinh
-   sqrt
-   sub
-   tan
-   tanh
-   trunc
 
 .. list-table::
    :widths: 50 50
@@ -249,3 +190,64 @@ Functions
 
    * - :doc:`trunc <trunc>`
      -
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   abs
+   acos
+   acosh
+   add
+   asin
+   asinh
+   atan
+   atan2
+   atanh
+   cbrt
+   ceil
+   clamp
+   cmp
+   cos
+   cosh
+   div
+   e
+   exp
+   exp2
+   exp10
+   expm1
+   floor
+   fma
+   gcd
+   hypot
+   i
+   lcm
+   log
+   log1p
+   log2
+   log10
+   max
+   min
+   minmax
+   mod
+   mul
+   nan
+   neg
+   pi
+   pow
+   rem
+   round
+   sign
+   sin
+   sinh
+   sqrt
+   sub
+   tan
+   tanh
+   trunc
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   blas <blas/index>

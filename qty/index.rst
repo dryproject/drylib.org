@@ -21,14 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   angle
-   length
-   mass
-   time
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -47,3 +39,12 @@ Types
 
    * - :doc:`time <time>`
      - Time.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   angle
+   length
+   mass
+   time

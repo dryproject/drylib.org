@@ -21,13 +21,6 @@ Description
 Modules
 -------
 
-.. toctree::
-   :hidden:
-
-   ascii <ascii/index>
-   printf <printf/index>
-   utf8 <utf8/index>
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -43,3 +36,11 @@ Modules
 
    * - :doc:`utf8 <utf8/index>`
      -
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   ascii <ascii/index>
+   printf <printf/index>
+   utf8 <utf8/index>

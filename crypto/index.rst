@@ -21,11 +21,6 @@ Description
 Modules
 -------
 
-.. toctree::
-   :hidden:
-
-   hash <hash/index>
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -35,3 +30,9 @@ Modules
 
    * - :doc:`hash <hash/index>`
      -
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   hash <hash/index>

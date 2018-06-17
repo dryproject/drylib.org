@@ -21,13 +21,6 @@ Description
 Modules
 -------
 
-.. toctree::
-   :hidden:
-
-   audio <audio/index>
-   image <image/index>
-   video <video/index>
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -43,3 +36,11 @@ Modules
 
    * - :doc:`video <video/index>`
      -
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   audio <audio/index>
+   image <image/index>
+   video <video/index>

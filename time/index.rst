@@ -21,12 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   duration
-   instant
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -39,3 +33,10 @@ Types
 
    * - :doc:`instant <instant>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   duration
+   instant

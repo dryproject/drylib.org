@@ -21,11 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   curie
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -35,3 +30,9 @@ Types
 
    * - :doc:`curie <curie>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   curie

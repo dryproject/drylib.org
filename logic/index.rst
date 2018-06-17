@@ -21,17 +21,6 @@ Description
 Functions
 ---------
 
-.. toctree::
-   :hidden:
-
-   and
-   nand
-   nor
-   not
-   or
-   xnor
-   xor
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -59,3 +48,15 @@ Functions
 
    * - :doc:`xor <xor>`
      - Exclusive disjunction operation.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   and
+   nand
+   nor
+   not
+   or
+   xnor
+   xor

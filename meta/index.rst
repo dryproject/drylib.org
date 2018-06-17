@@ -21,11 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   quantifiable
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -35,3 +30,9 @@ Types
 
    * - :doc:`quantifiable <quantifiable>`
      - Something quantifiable.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   quantifiable

@@ -21,16 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   f32
-   f64
-   i32
-   i64
-   value
-   value-type
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -55,3 +45,14 @@ Types
 
    * - :doc:`value-type <value-type>`
      - WebAssembly value type.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   f32
+   f64
+   i32
+   i64
+   value
+   value-type

@@ -21,11 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   string
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -38,26 +33,6 @@ Types
 
 Functions
 ---------
-
-.. toctree::
-   :hidden:
-
-   blank?
-   compare
-   concat
-   contains?
-   empty?
-   ends-with?
-   equals?
-   length
-   nth
-   reverse
-   size
-   starts-with?
-   trim
-   trim-left
-   trim-right
-   valid?
 
 .. list-table::
    :widths: 50 50
@@ -113,3 +88,25 @@ Functions
 
    * - :doc:`valid? <valid?>`
      -
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   blank?
+   compare
+   concat
+   contains?
+   empty?
+   ends-with?
+   equals?
+   length
+   nth
+   reverse
+   size
+   starts-with?
+   string
+   trim
+   trim-left
+   trim-right
+   valid?

@@ -21,15 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   iri
-   uri
-   url
-   urn
-   uuid
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -51,3 +42,13 @@ Types
 
    * - :doc:`uuid <uuid>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   iri
+   uri
+   url
+   urn
+   uuid

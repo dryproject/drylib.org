@@ -21,26 +21,6 @@ Description
 Modules
 -------
 
-.. toctree::
-   :hidden:
-
-   ansi <ansi/index>
-   dcmi <dcmi/index>
-   ecma <ecma/index>
-   iana <iana/index>
-   ieee <ieee/index>
-   ietf <ietf/index>
-   iso <iso/index>
-   itu <itu/index>
-   nist <nist/index>
-   oasis <oasis/index>
-   omg <omg/index>
-   opengroup <opengroup/index>
-   osrf <osrf/index>
-   si <si/index>
-   w3c <w3c/index>
-   xsf <xsf/index>
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -95,3 +75,24 @@ Modules
 
    * - :doc:`xsf <xsf/index>`
      -
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   ansi <ansi/index>
+   dcmi <dcmi/index>
+   ecma <ecma/index>
+   iana <iana/index>
+   ieee <ieee/index>
+   ietf <ietf/index>
+   iso <iso/index>
+   itu <itu/index>
+   nist <nist/index>
+   oasis <oasis/index>
+   omg <omg/index>
+   opengroup <opengroup/index>
+   osrf <osrf/index>
+   si <si/index>
+   w3c <w3c/index>
+   xsf <xsf/index>

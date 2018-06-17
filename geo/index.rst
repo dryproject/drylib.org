@@ -21,14 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   altitude
-   latitude
-   location
-   longitude
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -47,3 +39,12 @@ Types
 
    * - :doc:`longitude <longitude>`
      - A longitude angle.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   altitude
+   latitude
+   location
+   longitude

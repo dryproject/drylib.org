@@ -21,11 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   address
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -35,3 +30,9 @@ Types
 
    * - :doc:`address <address>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   address

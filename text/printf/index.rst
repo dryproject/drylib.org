@@ -21,14 +21,6 @@ Description
 Functions
 ---------
 
-.. toctree::
-   :hidden:
-
-   eprintf
-   fprintf
-   printf
-   sprintf
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -47,3 +39,12 @@ Functions
 
    * - :doc:`sprintf <sprintf>`
      - Prints to a string.
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   eprintf
+   fprintf
+   printf
+   sprintf

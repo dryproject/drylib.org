@@ -21,12 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   error
-   signal
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -39,3 +33,10 @@ Types
 
    * - :doc:`signal <signal>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   error
+   signal

@@ -21,21 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   error
-   file
-   group
-   locale
-   mode
-   path
-   process
-   process-group
-   signal
-   thread
-   user
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -75,3 +60,19 @@ Types
 
    * - :doc:`user <user>`
      - TODO
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   error
+   file
+   group
+   locale
+   mode
+   path
+   process
+   process-group
+   signal
+   thread
+   user

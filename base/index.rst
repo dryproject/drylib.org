@@ -21,57 +21,6 @@ Description
 Types
 -----
 
-.. toctree::
-   :hidden:
-
-   any
-   bit
-   bool
-   char
-   complex
-   datum
-   error
-   float
-   float32
-   float64
-   function
-   int
-   int8
-   int16
-   int32
-   int64
-   int128
-   integer
-   interval
-   list
-   map
-   matrix
-   nat
-   natural
-   none
-   number
-   optional
-   predicate
-   quantity
-   rational
-   real
-   result
-   scalar
-   seq
-   set
-   string
-   symbol
-   tensor
-   tuple
-   type
-   unit
-   vector
-   word
-   word8
-   word16
-   word32
-   word64
-
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -219,3 +168,55 @@ Types
 
    * - :doc:`word64 <word64>`
      - Machine word (64-bit).
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   any
+   bit
+   bool
+   char
+   complex
+   datum
+   error
+   float
+   float32
+   float64
+   function
+   int
+   int8
+   int16
+   int32
+   int64
+   int128
+   integer
+   interval
+   list
+   map
+   matrix
+   nat
+   natural
+   none
+   number
+   optional
+   predicate
+   quantity
+   rational
+   real
+   result
+   scalar
+   seq
+   set
+   string
+   symbol
+   tensor
+   tuple
+   type
+   unit
+   vector
+   word
+   word8
+   word16
+   word32
+   word64
