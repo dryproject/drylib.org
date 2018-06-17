@@ -40,7 +40,8 @@ extensions = [
 templates_path = ['.templates']
 source_suffix = '.rst'
 master_doc = 'index'
-language = None
+language = 'en'
+locale_dirs = ['.locales']
 exclude_patterns = ['.build', '.extensions', '.themes', 'CHANGES.rst', 'CREDITS.rst', 'README.rst', 'TODO.rst']
 pygments_style = 'sphinx'
 
@@ -92,7 +93,7 @@ latex_elements = {
 }
 
 latex_documents = [
-    (master_doc, 'drylib.tex', project, author, 'manual'),
+    (master_doc, 'drylib.tex', "DRYlib Manual", author, 'manual'),
 ]
 
 # -- Options for manual page output ------------------------------------------
