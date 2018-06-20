@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/ansi
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/ansi
+
+   American National Standards Institute (ANSI) standards.

@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/si
 
 ******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/si
+
+   International System of Units (SI) units of measurement.

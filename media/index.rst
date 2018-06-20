@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: media
 
 *****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: media
 
+   Audiovisual media support.
+
 Modules
 -------
 
@@ -26,16 +26,16 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`audio <audio/index>`
-     -
+     - Audio support.
 
    * - :doc:`image <image/index>`
-     -
+     - Image processing.
 
    * - :doc:`video <video/index>`
-     -
+     - Video support.
 
 .. toctree::
    :caption: Modules

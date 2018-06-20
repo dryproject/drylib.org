@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: sys
 
 ***
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: sys
 
+   System interfaces (POSIX, Linux, etc).
+
 Modules
 -------
 
@@ -26,13 +26,13 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`linux <linux/index>`
-     -
+     - Linux system interfaces.
 
    * - :doc:`posix <posix/index>`
-     -
+     - Portable Operating System Interface (POSIX) data types.
 
 .. toctree::
    :caption: Modules

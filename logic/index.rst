@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: logic
 
 *****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: logic
 
+   Logical operations.
+
 Functions
 ---------
 
@@ -26,7 +26,7 @@ Functions
    :header-rows: 1
 
    * - Function
-     - Description
+     - Summary
 
    * - :doc:`and <and>`
      - Logical conjunction operation.

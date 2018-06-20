@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/iana
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/iana
+
+   Internet Assigned Numbers Authority (IANA) standards.

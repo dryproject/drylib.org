@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/blas
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/blas
+
+   FFI for the BLAS (Basic Linear Algebra Subprograms) numeric library (``libblas``).

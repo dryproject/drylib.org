@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/c
 
 ******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/c
+
+   C code generation.

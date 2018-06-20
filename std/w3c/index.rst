@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/w3c
 
 *******
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: std/w3c
 
+   World Wide Web Consortium (W3C) standards.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`curie <curie>`
      - TODO

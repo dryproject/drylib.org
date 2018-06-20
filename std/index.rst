@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: std
 
 ***
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: std
 
+   Standards.
+
 Modules
 -------
 
@@ -26,55 +26,55 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`ansi <ansi/index>`
-     -
+     - American National Standards Institute (ANSI) standards.
 
    * - :doc:`dcmi <dcmi/index>`
-     -
+     - Dublin Core Metadata Initiative (DCMI) standards.
 
    * - :doc:`ecma <ecma/index>`
-     -
+     - Ecma International standards.
 
    * - :doc:`iana <iana/index>`
-     -
+     - Internet Assigned Numbers Authority (IANA) standards.
 
    * - :doc:`ieee <ieee/index>`
-     -
+     - Institute of Electrical and Electronics Engineers (IEEE) standards.
 
    * - :doc:`ietf <ietf/index>`
-     -
+     - Internet Engineering Task Force (IETF) standards.
 
    * - :doc:`iso <iso/index>`
-     -
+     - International Organization for Standardization (ISO) standards.
 
    * - :doc:`itu <itu/index>`
-     -
+     - International Telecommunication Union (ITU) standards.
 
    * - :doc:`nist <nist/index>`
-     -
+     - National Institute of Standards and Technology (NIST) standards.
 
    * - :doc:`oasis <oasis/index>`
-     -
+     - Organization for the Advancement of Structured Information Standards (OASIS) standards.
 
    * - :doc:`omg <omg/index>`
-     -
+     - Object Management Group (OMG) standards.
 
    * - :doc:`opengroup <opengroup/index>`
-     -
+     - Open Group standards.
 
    * - :doc:`osrf <osrf/index>`
-     -
+     - Open Source Robotics Foundation (OSRF) standards.
 
    * - :doc:`si <si/index>`
-     -
+     - International System of Units (SI) units of measurement.
 
    * - :doc:`w3c <w3c/index>`
-     -
+     - World Wide Web Consortium (W3C) standards.
 
    * - :doc:`xsf <xsf/index>`
-     -
+     - XMPP Standards Foundation (XSF) standards.
 
 .. toctree::
    :caption: Modules

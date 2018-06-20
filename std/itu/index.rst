@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/itu
 
 *******
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: std/itu
 
+   International Telecommunication Union (ITU) standards.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`oid <oid>`
      - TODO

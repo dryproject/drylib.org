@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: base
 
 ****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: base
 
+   Base library & types.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`any <any>`
      - Any value. All other types are subtypes of ``any``.

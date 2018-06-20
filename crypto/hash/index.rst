@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: crypto/hash
 
 ***********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: crypto/hash
+
+   Cryptographic hash functions.

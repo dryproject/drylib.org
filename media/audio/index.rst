@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: media/audio
 
 ***********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: media/audio
+
+   Audio support.

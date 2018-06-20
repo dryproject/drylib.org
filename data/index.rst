@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: data
 
 ****
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: data
+
+   Generic data structures.

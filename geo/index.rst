@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: geo
 
 ***
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: geo
 
+   Geographic information support.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`altitude <altitude>`
      - An altitude.

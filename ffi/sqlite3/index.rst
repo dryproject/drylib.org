@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/sqlite3
 
 ***********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/sqlite3
+
+   FFI for the SQLite 3.x embedded database library (``libsqlite3``).

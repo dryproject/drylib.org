@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: lang
 
 ****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: lang
 
+   Natural language support.
+
 Modules
 -------
 
@@ -26,10 +26,10 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`en <en/index>`
-     -
+     - English language support.
 
 .. toctree::
    :caption: Modules

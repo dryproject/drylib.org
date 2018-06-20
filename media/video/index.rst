@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: media/video
 
 ***********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: media/video
+
+   Video support.

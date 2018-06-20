@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/nist
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/nist
+
+   National Institute of Standards and Technology (NIST) standards.

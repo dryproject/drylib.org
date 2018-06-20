@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/cpp
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/cpp
+
+   C++ code generation.

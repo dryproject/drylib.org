@@ -1,0 +1,131 @@
+.. index:: module: {{ name }}
+
+{{ '*' * name|length }}
+{{ name }}
+{{ '*' * name|length }}
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+Description
+-----------
+
+.. dry:module:: {{ name }}
+
+   {{ description or 'TODO' }}
+
+{%- if modules is defined %}
+
+Modules
+-------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Module
+     - Summary
+   {% for module_name, module in modules.items() %}
+
+   * - :doc:`{{ module_name|basename }} <{{ module_name|basename }}/index>`
+     - {{ module.summary or '' }}
+   {% endfor %}
+{% endif %}
+
+{%- if types is defined %}
+
+Types
+-----
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Type
+     - Summary
+   {% for type_name, type in types.items() %}
+
+   * - :doc:`{{ type_name|basename }} <{{ type_name|basename }}>`
+     - {{ type.summary or '' }}
+   {% endfor %}
+{% endif %}
+
+{%- if constants is defined %}
+
+Constants
+---------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Constant
+     - Summary
+   {% for const_name, const in constants.items() %}
+
+   * - :doc:`{{ const_name|basename }} <{{ const_name|basename }}>`
+     - {{ const.summary or '' }}
+   {% endfor %}
+{% endif %}
+
+{%- if functions is defined %}
+
+Functions
+---------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Function
+     - Summary
+   {% for function_name, function in functions.items() %}
+
+   * - :doc:`{{ function_name|basename }} <{{ function_name|basename }}>`
+     - {{ function.summary or '' }}
+   {% endfor %}
+{% endif %}
+
+{%- if aliases is defined %}
+
+Aliases
+-------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Alias
+     - Summary
+   {% for alias_name, alias in aliases.items() %}
+
+   * - :doc:`{{ alias_name|basename }} <{{ alias_name|basename }}>`
+     - {{ alias.summary or '' }}
+   {% endfor %}
+{% endif %}
+
+{%- if symbols is defined and symbols %}
+
+.. toctree::
+   :caption: Symbols
+   :hidden:
+
+   {% for symbol_name in symbols %}
+   {{ symbol_name|basename }}
+   {% endfor %}
+{% endif %}
+
+{%- if modules is defined %}
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   {% for module in modules %}
+   {{ module|basename }} <{{ module|basename }}/index>
+   {% endfor %}
+{% endif %}

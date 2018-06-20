@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: crypto
 
 ******
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: crypto
 
+   Cryptographic algorithms.
+
 Modules
 -------
 
@@ -26,10 +26,10 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`hash <hash/index>`
-     -
+     - Cryptographic hash functions.
 
 .. toctree::
    :caption: Modules

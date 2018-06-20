@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/osrf
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/osrf
+
+   Open Source Robotics Foundation (OSRF) standards.

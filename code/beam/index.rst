@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/beam
 
 *********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/beam
+
+   BEAM (Erlang virtual machine) code generation.

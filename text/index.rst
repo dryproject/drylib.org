@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: text
 
 ****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: text
 
+   Text processing.
+
 Modules
 -------
 
@@ -26,16 +26,16 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`ascii <ascii/index>`
-     -
+     - ASCII text processing.
 
    * - :doc:`printf <printf/index>`
-     -
+     - ``printf(3)`` text formatting.
 
    * - :doc:`utf8 <utf8/index>`
-     -
+     - UTF-8 text processing.
 
 .. toctree::
    :caption: Modules

@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/dcmi
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/dcmi
+
+   Dublin Core Metadata Initiative (DCMI) standards.

@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: net/udp
 
 *******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: net/udp
+
+   UDP protocol support.

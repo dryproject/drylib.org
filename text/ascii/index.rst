@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: text/ascii
 
 **********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: text/ascii
 
+   ASCII text processing.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`string <string>`
      - ASCII string.
@@ -39,55 +39,55 @@ Functions
    :header-rows: 1
 
    * - Function
-     - Description
+     - Summary
 
    * - :doc:`blank? <blank?>`
-     -
+     - 
 
    * - :doc:`compare <compare>`
-     -
+     - 
 
    * - :doc:`concat <concat>`
-     -
+     - 
 
    * - :doc:`contains? <contains?>`
-     -
+     - 
 
    * - :doc:`empty? <empty?>`
      - Checks if a string is empty (has length zero).
 
    * - :doc:`ends-with? <ends-with?>`
-     -
+     - 
 
    * - :doc:`equals? <equals?>`
-     -
+     - 
 
    * - :doc:`length <length>`
-     -
+     - 
 
    * - :doc:`nth <nth>`
-     -
+     - 
 
    * - :doc:`reverse <reverse>`
-     -
+     - 
 
    * - :doc:`size <size>`
-     -
+     - 
 
    * - :doc:`starts-with? <starts-with?>`
-     -
+     - 
 
    * - :doc:`trim <trim>`
-     -
+     - 
 
    * - :doc:`trim-left <trim-left>`
-     -
+     - 
 
    * - :doc:`trim-right <trim-right>`
-     -
+     - 
 
    * - :doc:`valid? <valid?>`
-     -
+     - 
 
 .. toctree::
    :caption: Symbols

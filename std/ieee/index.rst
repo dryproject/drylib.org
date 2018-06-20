@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/ieee
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/ieee
+
+   Institute of Electrical and Electronics Engineers (IEEE) standards.

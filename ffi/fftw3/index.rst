@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/fftw3
 
 *********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/fftw3
+
+   FFI for the FFTW 3.x numeric library (``libfftw3``).

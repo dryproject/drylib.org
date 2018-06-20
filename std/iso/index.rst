@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/iso
 
 *******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/iso
+
+   International Organization for Standardization (ISO) standards.

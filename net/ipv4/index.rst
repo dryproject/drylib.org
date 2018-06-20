@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: net/ipv4
 
 ********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: net/ipv4
 
+   IPv4 protocol support.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`address <address>`
      - TODO

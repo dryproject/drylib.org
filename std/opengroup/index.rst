@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/opengroup
 
 *************
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/opengroup
+
+   Open Group standards.

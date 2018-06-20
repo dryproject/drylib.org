@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: bits
 
 ****
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: bits
+
+   Bitwise operations.

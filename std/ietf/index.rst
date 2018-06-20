@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/ietf
 
 ********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: std/ietf
 
+   Internet Engineering Task Force (IETF) standards.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`iri <iri>`
      - TODO

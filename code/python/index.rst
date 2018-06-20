@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/python
 
 ***********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/python
+
+   Python code generation.

@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: meta
 
 ****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: meta
 
+   Metadata support.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`quantifiable <quantifiable>`
      - Something quantifiable.

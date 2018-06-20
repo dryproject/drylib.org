@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/vulkan
 
 **********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/vulkan
+
+   FFI for the Vulkan cross-platform graphics & compute API (``libvulkan``).

@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/dart
 
 *********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/dart
+
+   Dart code generation.

@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: io
 
 **
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: io
+
+   Input/output (I/O) support.

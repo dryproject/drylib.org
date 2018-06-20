@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/ocaml
 
 **********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/ocaml
+
+   OCaml code generation.

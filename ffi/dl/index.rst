@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/dl
 
 ******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/dl
+
+   FFI for the system's dynamic loader library (``libdl``).

@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: qty
 
 ***
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: qty
 
+   Units & quantities.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`angle <angle>`
      - An angle.

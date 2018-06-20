@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: util
 
 ****
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: util
+
+   Miscellaneous utilities.

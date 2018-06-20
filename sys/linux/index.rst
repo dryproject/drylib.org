@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: sys/linux
 
 *********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: sys/linux
 
+   Linux system interfaces.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`error <error>`
      - TODO

@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/wasm
 
 *********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: code/wasm
 
+   WebAssembly (aka Wasm) code generation.
+
 Types
 -----
 
@@ -26,7 +26,23 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
+
+   * - :doc:`value <value>`
+     - WebAssembly value.
+
+   * - :doc:`value-type <value-type>`
+     - WebAssembly value type.
+
+Aliases
+-------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Alias
+     - Summary
 
    * - :doc:`f32 <f32>`
      - Floating-point number (32-bit single-precision).
@@ -39,12 +55,6 @@ Types
 
    * - :doc:`i64 <i64>`
      - Machine word (64-bit).
-
-   * - :doc:`value <value>`
-     - WebAssembly value.
-
-   * - :doc:`value-type <value-type>`
-     - WebAssembly value type.
 
 .. toctree::
    :caption: Symbols

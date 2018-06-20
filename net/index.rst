@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: net
 
 ***
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: net
 
+   Network protocols.
+
 Modules
 -------
 
@@ -26,19 +26,19 @@ Modules
    :header-rows: 1
 
    * - Module
-     - Description
+     - Summary
 
    * - :doc:`ipv4 <ipv4/index>`
-     -
+     - IPv4 protocol support.
 
    * - :doc:`ipv6 <ipv6/index>`
-     -
+     - IPv6 protocol support.
 
    * - :doc:`tcp <tcp/index>`
-     -
+     - TCP protocol support.
 
    * - :doc:`udp <udp/index>`
-     -
+     - UDP protocol support.
 
 Types
 -----
@@ -48,7 +48,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`port <port>`
      - TODO

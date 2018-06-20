@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/omg
 
 *******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/omg
+
+   Object Management Group (OMG) standards.

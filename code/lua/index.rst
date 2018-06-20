@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/lua
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/lua
+
+   Lua code generation.

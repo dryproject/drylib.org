@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: net/ipv6
 
 ********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: net/ipv6
 
+   IPv6 protocol support.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`address <address>`
      - TODO

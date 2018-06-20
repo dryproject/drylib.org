@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/oasis
 
 *********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/oasis
+
+   Organization for the Advancement of Structured Information Standards (OASIS) standards.

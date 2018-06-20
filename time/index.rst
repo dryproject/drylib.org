@@ -1,5 +1,3 @@
-:orphan:
-
 .. index:: module: time
 
 ****
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: time
 
+   Date & time calculations.
+
 Types
 -----
 
@@ -26,7 +26,7 @@ Types
    :header-rows: 1
 
    * - Type
-     - Description
+     - Summary
 
    * - :doc:`duration <duration>`
      - TODO

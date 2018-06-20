@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/libc
 
 ********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: ffi/libc
 
+   FFI for the system's C library (``libc``).
+
 Functions
 ---------
 
@@ -26,16 +26,16 @@ Functions
    :header-rows: 1
 
    * - Function
-     - Description
+     - Summary
 
    * - :doc:`abort <abort>`
-     -
+     - 
 
    * - :doc:`exit <exit>`
-     -
+     - 
 
    * - :doc:`rand <rand>`
-     -
+     - 
 
 .. toctree::
    :caption: Symbols

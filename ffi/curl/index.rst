@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: ffi/curl
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: ffi/curl
+
+   FFI for the cURL data transfer library (``libcurl``).

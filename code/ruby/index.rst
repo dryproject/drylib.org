@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: code/ruby
 
 *********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: code/ruby
+
+   Ruby code generation.

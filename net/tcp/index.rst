@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: net/tcp
 
 *******
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: net/tcp
+
+   TCP protocol support.

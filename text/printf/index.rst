@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: text/printf
 
 ***********
@@ -18,6 +16,8 @@ Description
 
 .. dry:module:: text/printf
 
+   ``printf(3)`` text formatting.
+
 Functions
 ---------
 
@@ -26,7 +26,7 @@ Functions
    :header-rows: 1
 
    * - Function
-     - Description
+     - Summary
 
    * - :doc:`eprintf <eprintf>`
      - Prints to standard error.

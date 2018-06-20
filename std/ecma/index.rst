@@ -1,5 +1,3 @@
-:tocdepth: 1
-
 .. index:: module: std/ecma
 
 ********
@@ -17,3 +15,5 @@ Description
 -----------
 
 .. dry:module:: std/ecma
+
+   Ecma International standards.
