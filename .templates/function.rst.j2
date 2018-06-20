@@ -1,7 +1,7 @@
 :tocdepth: 1
 
-math/lcm
-========
+{{ name }}
+{{ '=' * name|length }}
 
 .. only:: html
 
@@ -13,9 +13,11 @@ math/lcm
 Description
 -----------
 
-.. dry:function:: math/lcm
+.. dry:function:: {{ name }}
 
-   TODO
+   {{ description or "TODO\n" }}
+
+{%- if true %}
 
 Implementations
 ---------------
@@ -38,6 +40,7 @@ Implementations
 
    * - :doc:`OCaml </ocaml>`
      - ``(* TODO *)``
+{% endif %}
 
 Examples
 --------

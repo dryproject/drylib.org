@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/expm1
 
+   TODO
+
 Implementations
 ---------------
 

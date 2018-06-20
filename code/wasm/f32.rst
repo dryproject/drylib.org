@@ -13,7 +13,7 @@ code/wasm/f32
 Description
 -----------
 
-.. dry:type:: code/wasm/f32
+.. dry:alias:: code/wasm/f32
 
    Floating-point number (32-bit single-precision).
 

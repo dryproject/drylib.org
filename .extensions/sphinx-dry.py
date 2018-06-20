@@ -85,10 +85,16 @@ def make_namespace_directive(directive_name):
 class DRYModuleObject(make_namespace_directive('module')):
     pass
 
+class DRYTypeObject(make_directive('type')):
+    pass
+
+class DRYConstantObject(make_directive('constant')):
+    pass
+
 class DRYFunctionObject(make_directive('function')):
     pass
 
-class DRYTypeObject(make_directive('type')):
+class DRYAliasObject(make_directive('alias')):
     pass
 
 class DRYDomain(Domain):
@@ -96,18 +102,22 @@ class DRYDomain(Domain):
 
     name, label = 'dry', l_('DRY')
     object_types = {
-      'module':   ObjType(l_('module'),   'module'),
-      'function': ObjType(l_('function'), 'function'),
-      'type':     ObjType(l_('type'),     'type'),
+        'module':   ObjType(l_('module'),   'module'),
+        'type':     ObjType(l_('type'),     'type'),
+        'constant': ObjType(l_('constant'), 'constant'),
+        'function': ObjType(l_('function'), 'function'),
+        'alias':    ObjType(l_('alias'),    'alias'),
     }
     directives = {
-      'module':   DRYModuleObject,
-      'function': DRYFunctionObject,
-      'type':     DRYTypeObject,
+        'module':   DRYModuleObject,
+        'type':     DRYTypeObject,
+        'constant': DRYConstantObject,
+        'function': DRYFunctionObject,
+        'alias':    DRYAliasObject,
     }
     roles = {}
     initial_data = {
-      'objects': {},  # (objtype, name) -> docname
+        'objects': {},  # (objtype, name) -> docname
     }
     data_version = 0 # bump this when the format of self.data changes
 

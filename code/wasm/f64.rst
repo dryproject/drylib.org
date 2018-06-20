@@ -13,7 +13,7 @@ code/wasm/f64
 Description
 -----------
 
-.. dry:type:: code/wasm/f64
+.. dry:alias:: code/wasm/f64
 
    Floating-point number (64-bit double-precision).
 

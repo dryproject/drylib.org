@@ -13,7 +13,9 @@ math/pi
 Description
 -----------
 
-.. dry:function:: math/pi
+.. dry:constant:: math/pi
+
+   TODO
 
 Implementations
 ---------------

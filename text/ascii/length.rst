@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: text/ascii/length
 
+   TODO
+
 Implementations
 ---------------
 

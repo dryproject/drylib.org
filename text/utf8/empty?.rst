@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: text/utf8/empty?
 
+   TODO
+
 Implementations
 ---------------
 

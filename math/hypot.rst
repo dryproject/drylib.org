@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/hypot
 
+   TODO
+
 Implementations
 ---------------
 

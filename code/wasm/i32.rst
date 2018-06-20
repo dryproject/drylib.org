@@ -13,7 +13,7 @@ code/wasm/i32
 Description
 -----------
 
-.. dry:type:: code/wasm/i32
+.. dry:alias:: code/wasm/i32
 
    Machine word (32-bit).
 

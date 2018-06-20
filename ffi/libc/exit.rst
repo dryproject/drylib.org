@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: ffi/libc/exit
 
+   TODO
+
 Implementations
 ---------------
 

@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/exp2
 
+   TODO
+
 Implementations
 ---------------
 

@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: text/ascii/reverse
 
+   TODO
+
 Implementations
 ---------------
 

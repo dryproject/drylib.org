@@ -13,7 +13,7 @@ code/wasm/i64
 Description
 -----------
 
-.. dry:type:: code/wasm/i64
+.. dry:alias:: code/wasm/i64
 
    Machine word (64-bit).
 

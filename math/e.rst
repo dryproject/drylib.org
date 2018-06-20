@@ -13,7 +13,9 @@ math/e
 Description
 -----------
 
-.. dry:function:: math/e
+.. dry:constant:: math/e
+
+   TODO
 
 Implementations
 ---------------

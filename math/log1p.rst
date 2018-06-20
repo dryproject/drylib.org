@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/log1p
 
+   TODO
+
 Implementations
 ---------------
 

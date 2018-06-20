@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/fma
 
+   TODO
+
 Implementations
 ---------------
 

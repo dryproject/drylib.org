@@ -13,7 +13,9 @@ math/i
 Description
 -----------
 
-.. dry:function:: math/i
+.. dry:constant:: math/i
+
+   TODO
 
 Implementations
 ---------------

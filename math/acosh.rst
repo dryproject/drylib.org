@@ -15,6 +15,8 @@ Description
 
 .. dry:function:: math/acosh
 
+   TODO
+
 Implementations
 ---------------
 
