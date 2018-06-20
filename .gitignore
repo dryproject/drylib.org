@@ -9,3 +9,6 @@
 
 # Sphinx artifacts
 .build
+
+# Python artifacts
+__pycache__
