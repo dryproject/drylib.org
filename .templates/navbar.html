@@ -1,59 +1,59 @@
 {% extends "!navbar.html" %}
 
 {% block navbartoc %}
-<li><a href="{{ pathto('intro') }}">Introduction</a></li>
-<li><a href="{{ pathto('status') }}">Status</a></li>
-<li><a href="{{ pathto('faq') }}">FAQ</a></li>
-<li class="dropdown">
+<li class="{% if pagename == 'intro' %}active{% endif %}"><a href="{{ pathto('intro') }}">Introduction</a></li>
+<li class="{% if pagename == 'status' %}active{% endif %}"><a href="{{ pathto('status') }}">Status</a></li>
+<li class="{% if pagename == 'faq' %}active{% endif %}"><a href="{{ pathto('faq') }}">FAQ</a></li>
+{%
+set module_names = [
+  'base', 'bits', 'code', 'crypto', 'data', 'ffi', 'geo', 'io', 'lang', 'logic', 'math', 'media', 'meta', 'net', 'qty', 'std', 'sys', 'text', 'time', 'util',
+]
+-%}
+<li class="dropdown{% if pagename.endswith('/index') %} active{% endif %}">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modules <span class="caret"></span></a>
   <ul class="dropdown-menu" role="menu">
     <ul>
       <li class="dropdown-header">Module Reference</li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('base/index') }}">base</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('bits/index') }}">bits</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('code/index') }}">code</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('crypto/index') }}">crypto</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('data/index') }}">data</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('ffi/index') }}">ffi</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('geo/index') }}">geo</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('io/index') }}">io</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('lang/index') }}">lang</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('logic/index') }}">logic</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('math/index') }}">math</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('media/index') }}">media</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('meta/index') }}">meta</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('net/index') }}">net</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('qty/index') }}">qty</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('std/index') }}">std</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('sys/index') }}">sys</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('text/index') }}">text</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('time/index') }}">time</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('util/index') }}">util</a></li>
+      {% for module_name in module_names -%}
+      <li class="toctree-l1{% if pagename.replace('/index', '').startswith(module_name) %} active{% endif %}"><a class="reference internal" href="{{ pathto(module_name + '/index') }}">{{ module_name }}</a></li>
+      {% endfor -%}
     </ul>
   </ul>
 </li>
-<li class="dropdown">
+{%
+set languages = [
+  ('c', 'C'),
+  ('cpp', '<b>C++</b>'),
+  ('lisp', 'Common Lisp'),
+  ('d', 'D'),
+  ('dart', 'Dart'),
+  ('elixir', 'Elixir'),
+  ('go', '<b>Go</b>'),
+  ('java', '<b>Java</b>'),
+  ('js', 'JS'),
+  ('julia', 'Julia'),
+  ('kotlin', 'Kotlin'),
+  ('lua', 'Lua'),
+  ('ocaml', '<b>OCaml</b>'),
+  ('php', 'PHP'),
+  ('python', 'Python'),
+  ('ruby', 'Ruby'),
+  ('rust', 'Rust'),
+]
+-%}
+{%
+set language_names = [
+  'c', 'cpp', 'lisp', 'd', 'dart', 'elixir', 'go', 'java', 'js', 'julia', 'kotlin', 'lua', 'ocaml', 'php', 'python', 'ruby', 'rust',
+]
+-%}
+<li class="dropdown{% if pagename in language_names %} active{% endif %}">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
   <ul class="dropdown-menu" role="menu">
     <ul>
       <li class="dropdown-header">Language Reference</li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('c') }}">C</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('cpp') }}"><b>C++</b></a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('lisp') }}">Common Lisp</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('d') }}">D</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('dart') }}">Dart</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('elixir') }}">Elixir</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('go') }}"><b>Go</b></a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('java') }}"><b>Java</b></a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('js') }}">JS</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('julia') }}">Julia</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('kotlin') }}">Kotlin</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('lua') }}">Lua</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('ocaml') }}"><b>OCaml</b></a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('php') }}">PHP</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('python') }}">Python</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('ruby') }}">Ruby</a></li>
-      <li class="toctree-l1"><a class="reference internal" href="{{ pathto('rust') }}">Rust</a></li>
+      {% for language_name, language_title in languages -%}
+      <li class="toctree-l1{% if pagename == language_name %} active{% endif %}"><a class="reference internal" href="{{ pathto(language_name) }}">{{ language_title }}</a></li>
+      {% endfor -%}
     </ul>
   </ul>
 </li>
@@ -61,4 +61,3 @@
 
 {% block navbarextra %}
 {% endblock %}
-
