@@ -1,8 +1,8 @@
-.. index:: module: ffi/libc
+.. index:: module: ffi/c
 
-********
-ffi/libc
-********
+*****
+ffi/c
+*****
 
 .. only:: html
 
@@ -14,7 +14,7 @@ ffi/libc
 Description
 -----------
 
-.. dry:module:: ffi/libc
+.. dry:module:: ffi/c
 
    FFI for the system's C library (``libc``).
 

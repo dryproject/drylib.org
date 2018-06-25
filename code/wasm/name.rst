@@ -1,7 +1,7 @@
 :tocdepth: 1
 
-ffi/libc/exit
-=============
+code/wasm/name
+==============
 
 .. only:: html
 
@@ -13,7 +13,7 @@ ffi/libc/exit
 Description
 -----------
 
-.. dry:function:: ffi/libc/exit
+.. dry:type:: code/wasm/name
 
    TODO
 

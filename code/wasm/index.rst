@@ -28,6 +28,30 @@ Types
    * - Type
      - Summary
 
+   * - :doc:`comment <comment>`
+     - 
+
+   * - :doc:`expression <expression>`
+     - 
+
+   * - :doc:`function <function>`
+     - 
+
+   * - :doc:`identifier <identifier>`
+     - 
+
+   * - :doc:`instruction <instruction>`
+     - 
+
+   * - :doc:`module <module>`
+     - 
+
+   * - :doc:`name <name>`
+     - 
+
+   * - :doc:`result-type <result-type>`
+     - 
+
    * - :doc:`value <value>`
      - WebAssembly value.
 
@@ -60,9 +84,17 @@ Aliases
    :caption: Symbols
    :hidden:
 
+   comment
+   expression
    f32
    f64
+   function
    i32
    i64
+   identifier
+   instruction
+   module
+   name
+   result-type
    value
    value-type

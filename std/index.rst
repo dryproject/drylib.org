@@ -73,6 +73,9 @@ Modules
    * - :doc:`w3c <w3c/index>`
      - World Wide Web Consortium (W3C) standards.
 
+   * - :doc:`whatwg <whatwg/index>`
+     - Web Hypertext Application Technology Working Group (WHATWG) standards.
+
    * - :doc:`xsf <xsf/index>`
      - XMPP Standards Foundation (XSF) standards.
 
@@ -95,4 +98,5 @@ Modules
    osrf <osrf/index>
    si <si/index>
    w3c <w3c/index>
+   whatwg <whatwg/index>
    xsf <xsf/index>

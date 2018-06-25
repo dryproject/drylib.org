@@ -1,7 +1,7 @@
 :tocdepth: 1
 
-ffi/libc/abort
-==============
+code/wasm/function
+==================
 
 .. only:: html
 
@@ -13,7 +13,7 @@ ffi/libc/abort
 Description
 -----------
 
-.. dry:function:: ffi/libc/abort
+.. dry:type:: code/wasm/function
 
    TODO
 

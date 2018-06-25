@@ -1,7 +1,7 @@
 :tocdepth: 1
 
-ffi/libc/rand
-=============
+std/si/kilogram
+===============
 
 .. only:: html
 
@@ -13,7 +13,7 @@ ffi/libc/rand
 Description
 -----------
 
-.. dry:function:: ffi/libc/rand
+.. dry:constant:: std/si/kilogram
 
    TODO
 

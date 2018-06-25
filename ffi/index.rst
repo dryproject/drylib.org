@@ -31,6 +31,9 @@ Modules
    * - :doc:`blas <blas/index>`
      - FFI for the BLAS (Basic Linear Algebra Subprograms) numeric library (``libblas``).
 
+   * - :doc:`c <c/index>`
+     - FFI for the system's C library (``libc``).
+
    * - :doc:`curl <curl/index>`
      - FFI for the cURL data transfer library (``libcurl``).
 
@@ -39,9 +42,6 @@ Modules
 
    * - :doc:`fftw3 <fftw3/index>`
      - FFI for the FFTW 3.x numeric library (``libfftw3``).
-
-   * - :doc:`libc <libc/index>`
-     - FFI for the system's C library (``libc``).
 
    * - :doc:`sqlite3 <sqlite3/index>`
      - FFI for the SQLite 3.x embedded database library (``libsqlite3``).
@@ -54,9 +54,9 @@ Modules
    :hidden:
 
    blas <blas/index>
+   c <c/index>
    curl <curl/index>
    dl <dl/index>
    fftw3 <fftw3/index>
-   libc <libc/index>
    sqlite3 <sqlite3/index>
    vulkan <vulkan/index>
