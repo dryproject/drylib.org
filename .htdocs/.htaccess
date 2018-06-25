@@ -33,7 +33,15 @@ DefaultLanguage en
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
 
-# Remove any trailing '/index.html' from the URL path.
+# Redirect '/$module' to '/$module/'.
+# See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.*)([^/])$ /$1$2/ [R=301,L]
+</IfModule>
+
+# Redirect '/$module/index.html' to '/$module/'.
 # See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 <IfModule mod_rewrite.c>
 RewriteEngine on
@@ -41,9 +49,28 @@ RewriteRule ^index\.html$ / [R=301,L]
 RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
 </IfModule>
 
+# Redirect '.../$predicate?.html' to '.../$predicate%3F.html'.
 # See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 <IfModule mod_rewrite.c>
-#RewriteEngine on
+RewriteEngine on
 RewriteCond %{QUERY_STRING} ^\.html$
 RewriteRule ^(.*)$ /$1\%3F.html? [NE,R=301,L]
+</IfModule>
+
+# Redirect '/$module/$term' to '/$module/$term.html'.
+# See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/\.]+)$ /$1/$2/$3/$4.html [R=301,L]
+RewriteRule ^([^/]+)/([^/]+)/([^/\.]+)$ /$1/$2/$3.html [R=301,L]
+RewriteRule ^([^/]+)/([^/\.]+)$ /$1/$2.html [R=301,L]
+RewriteRule ^([^/\.]+)$ /$1.html [R=301,L]
+</IfModule>
+
+# Redirect renamed modules/terms to their correct names.
+# See: https://httpd.apache.org/docs/current/mod/mod_rewrite.html
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^base/option.html$ /base/optional.html [R=301,L]
+RewriteRule ^ffi/libc/(.*)$ /ffi/c/$1 [R=301,L]
 </IfModule>
