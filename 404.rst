@@ -1,0 +1,16 @@
+:orphan:
+
+*************
+404 Not Found
+*************
+
+**The page you were looking for could not be found.**
+
+You may have followed a broken or dead link, or mistyped the URL.
+
+You can try `searching <search.html>`__ this site to find what you were
+looking for.
+
+.. seealso::
+
+   `HTTP 404 <https://en.wikipedia.org/wiki/HTTP_404>`__ in Wikipedia

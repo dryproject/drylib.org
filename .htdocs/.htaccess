@@ -18,7 +18,7 @@ DirectoryIndex index.html
 RedirectMatch 403 /\..*$
 </IfModule>
 
-# Set the header Content-Type: text/html; charset=UTF-8.
+# Set the header 'Content-Type: text/html; charset=UTF-8'.
 # See: https://httpd.apache.org/docs/2.4/mod/core.html#adddefaultcharset
 AddDefaultCharset UTF-8
 
