@@ -31,6 +31,7 @@ Module Reference
      - Generic data structures.
 
    * - :doc:`ffi <ffi/index>`:
+       :doc:`ffi/blas <ffi/blas/index>`,
        :doc:`ffi/c <ffi/c/index>`,
        :doc:`... <ffi/index>`
      - Foreign-function interfaces (FFI).

@@ -5,6 +5,35 @@
 Language Reference
 ******************
 
+At the time of writing (summer 2018), the :doc:`C++ <cpp>`, :doc:`Go <go>`,
+:doc:`Java <java>`, and :doc:`OCaml <ocaml>` ports are being actively
+developed and fleshed out.
+
+Current Ports
+=============
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Language
+     - Usage
+
+   * - :doc:`C++ <cpp>`
+     - ``#include "drylib.hpp"``
+
+   * - :doc:`Go <go>`
+     - ``import "github.com/dryproject/drylib.go"``
+
+   * - :doc:`Java <java>`
+     - ``import dry.*;``
+
+   * - :doc:`OCaml <ocaml>`
+     - ``open DRY``
+
+Planned Ports
+=============
+
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -14,9 +43,6 @@ Language Reference
 
    * - :doc:`C <c>`
      - ``#include "drylib.h"``
-
-   * - :doc:`C++ <cpp>`
-     - ``#include "drylib.hpp"``
 
    * - :doc:`Common Lisp <lisp>`
      - ``(require :drylib)``
@@ -30,12 +56,6 @@ Language Reference
    * - :doc:`Elixir <elixir>`
      - TODO
 
-   * - :doc:`Go <go>`
-     - ``import "github.com/dryproject/drylib.go"``
-
-   * - :doc:`Java <java>`
-     - ``import dry.*;``
-
    * - :doc:`JS <js>`
      - ``import * as dry from 'drylib';``
 
@@ -47,9 +67,6 @@ Language Reference
 
    * - :doc:`Lua <lua>`
      - ``dry = require 'drylib'``
-
-   * - :doc:`OCaml <ocaml>`
-     - ``open DRY``
 
    * - :doc:`PHP <php>`
      - ``require_once 'drylib.php';``
