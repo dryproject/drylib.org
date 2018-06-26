@@ -178,10 +178,10 @@ Languages
    :hidden:
 
    intro
+   status
    tutorial
    faq
    reference
-   status
    history
    glossary
    bibliography
