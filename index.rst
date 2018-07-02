@@ -25,7 +25,8 @@ Modules
    * - Module
      - Description
 
-   * - :doc:`base <base/index>`
+   * - :doc:`base <base/index>`:
+       :doc:`base/simd <base/simd/index>`
      - Base library & types.
 
    * - :doc:`bits <bits/index>`

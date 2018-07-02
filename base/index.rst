@@ -18,6 +18,19 @@ Description
 
    Base library & types.
 
+Modules
+-------
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - Module
+     - Summary
+
+   * - :doc:`simd <simd/index>`
+     - Single instruction, multiple data (SIMD) types and operations.
+
 Types
 -----
 
@@ -51,6 +64,9 @@ Types
 
    * - :doc:`float <float>`
      - Floating-point number (native size).
+
+   * - :doc:`float16 <float16>`
+     - Floating-point number (16-bit half-precision).
 
    * - :doc:`float32 <float32>`
      - Floating-point number (32-bit single-precision).
@@ -181,6 +197,7 @@ Types
    datum
    error
    float
+   float16
    float32
    float64
    function
@@ -220,3 +237,9 @@ Types
    word16
    word32
    word64
+
+.. toctree::
+   :caption: Modules
+   :hidden:
+
+   simd <simd/index>
