@@ -61,7 +61,7 @@ Java
 
 .. code-block:: java
 
-   // TODO
+   final boolean result = dry.text.ASCII.isBlank(string);
 
 OCaml
 ^^^^^

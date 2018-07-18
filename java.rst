@@ -39,7 +39,7 @@ Library Usage
 Design Principles
 =================
 
-- No dependencies on anything else, for anything.
+- No runtime dependencies on anything else, for anything.
 
 The Interfaces
 --------------
@@ -51,6 +51,13 @@ The Interfaces
   No methods ever accept ``null`` arguments, nor do they return ``null``.
   Constructors check their arguments and throw a ``NullPointerException`` if
   passed a ``null`` value; as a consequence, no fields can be ``null``.
+  All method parameters and results are annotated with the ``@NotNull``
+  annotation from JetBrains.
+
+- **Null handling:**
+  All methods throw a ``NullPointerException`` immediately if encountering
+  ``null`` at the input boundayr, terminating the stack trace at the exact
+  method that was called with a ``null`` argument.
 
 - **Thread safety:**
   Due to immutability, it is safe to cache and reuse object instances and to
