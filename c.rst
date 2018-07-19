@@ -40,6 +40,8 @@ Design Principles
 
 - All exported public symbols are prefixed with ``dry_``.
 
+- No dependence on hidden global state (e.g., the current locale).
+
 Reference
 =========
 
