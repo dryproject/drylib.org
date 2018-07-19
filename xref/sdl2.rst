@@ -18,3 +18,14 @@ SDL2 Cross-Reference
 
 - https://www.libsdl.org/projects/SDL_image/
 - https://hg.libsdl.org/SDL_image/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

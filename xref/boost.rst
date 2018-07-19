@@ -13,3 +13,14 @@ Boost Cross-Reference
 - https://github.com/boostorg/boost
 - https://www.boost.org/doc/libs/1_67_0/?view=categorized
 - https://www.boost.org/doc/libs/1_67_0/libs/multi_array/doc/index.html
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

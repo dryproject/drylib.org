@@ -13,3 +13,14 @@ Wolfram Language Cross-Reference
 - https://en.wikipedia.org/wiki/Wolfram_Language
 - https://wolframlanguage.org
 - https://www.wolfram.com/language/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

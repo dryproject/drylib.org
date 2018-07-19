@@ -12,3 +12,14 @@ ICU4C Cross-Reference
 - https://en.wikipedia.org/wiki/International_Components_for_Unicode
 - http://site.icu-project.org/home
 - http://icu-project.org/apiref/icu4c/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

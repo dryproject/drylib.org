@@ -16,3 +16,14 @@ Eigen Cross-Reference
 - https://eigen.tuxfamily.org/dox/
 - https://eigen.tuxfamily.org/dox/AsciiQuickReference.txt
 - https://github.com/owlbarn/eigen
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

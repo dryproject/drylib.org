@@ -13,3 +13,14 @@ SciPy Cross-Reference
 - https://github.com/scipy/scipy
 - https://www.scipy.org
 - https://docs.scipy.org/doc/scipy/reference/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

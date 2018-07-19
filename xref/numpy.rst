@@ -14,3 +14,14 @@ NumPy Cross-Reference
 - https://www.numpy.org
 - https://docs.scipy.org/doc/numpy/reference/
 - https://docs.scipy.org/doc/numpy/reference/routines.html
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

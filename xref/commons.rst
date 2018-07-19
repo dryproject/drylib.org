@@ -13,3 +13,14 @@ Apache Commons Cross-Reference
 - https://github.com/apache/commons-lang
 - https://github.com/apache/commons-math
 - http://commons.apache.org
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

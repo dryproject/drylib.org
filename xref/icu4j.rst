@@ -14,3 +14,14 @@ ICU4J Cross-Reference
 - http://site.icu-project.org/home/why-use-icu4j
 - http://icu-project.org/apiref/icu4j/
 - https://wiki.eclipse.org/ICU4J
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

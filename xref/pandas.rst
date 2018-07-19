@@ -13,3 +13,14 @@ pandas Cross-Reference
 - https://github.com/pandas-dev/pandas
 - https://pandas.pydata.org
 - http://pandas.pydata.org/pandas-docs/stable/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

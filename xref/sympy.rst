@@ -14,3 +14,14 @@ SymPy Cross-Reference
 - https://www.sympy.org/en/
 - https://www.sympy.org/en/features.html
 - https://docs.sympy.org/latest/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

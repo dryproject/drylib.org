@@ -14,3 +14,14 @@ Apache Portable Runtime (APR) Cross-Reference
 - http://svn.apache.org/repos/asf/apr/site/trunk/
 - https://apr.apache.org
 - https://apr.apache.org/docs/apr/trunk/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

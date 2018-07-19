@@ -15,3 +15,14 @@ ND4J Cross-Reference
 - https://nd4j.org
 - https://nd4j.org/backend.html
 - https://deeplearning4j.org/devguide
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

@@ -13,3 +13,14 @@ Google Guava Cross-Reference
 - https://en.wikipedia.org/wiki/Google_Guava
 - https://github.com/google/guava
 - https://github.com/google/guava/wiki
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

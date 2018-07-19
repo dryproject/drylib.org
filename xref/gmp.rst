@@ -15,3 +15,14 @@ GNU Multiple Precision Arithmetic Library (GMP) Cross-Reference
 - https://gmplib.org
 - https://gmplib.org/#FUNCCLASSES
 - https://gmplib.org/manual/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

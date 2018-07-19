@@ -18,3 +18,14 @@ MATLAB Cross-Reference
 - https://en.wikipedia.org/wiki/GNU_Octave
 - https://github.com/NexMirror/Octave
 - https://www.gnu.org/software/octave/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

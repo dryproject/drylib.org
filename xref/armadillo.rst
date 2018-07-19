@@ -14,3 +14,14 @@ Armadillo Cross-Reference
 - http://arma.sourceforge.net
 - http://arma.sourceforge.net/docs.html
 - http://arma.sourceforge.net/docs.html#syntax
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

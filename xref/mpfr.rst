@@ -13,3 +13,14 @@ GNU MPFR Cross-Reference
 - https://en.wikipedia.org/wiki/GNU_MPFR
 - https://gforge.inria.fr/scm/viewvc.php/mpfr/trunk/
 - https://www.mpfr.org
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

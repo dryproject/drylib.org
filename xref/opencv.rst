@@ -12,3 +12,14 @@ OpenCV Cross-Reference
 - https://en.wikipedia.org/wiki/OpenCV
 - https://github.com/opencv/opencv
 - https://opencv.org
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

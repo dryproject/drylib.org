@@ -12,3 +12,14 @@ scikit-learn Cross-Reference
 - https://en.wikipedia.org/wiki/Scikit-learn
 - https://github.com/scikit-learn/scikit-learn
 - http://scikit-learn.org/stable/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----

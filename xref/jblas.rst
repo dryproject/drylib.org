@@ -14,3 +14,14 @@ jblas Cross-Reference
 - http://jblas.org
 - http://jblas.org/javadoc/
 - http://lessthanoptimal.github.io/Java-Matrix-Benchmark/
+
+----
+
+.. only:: html
+
+   .. contents::
+      :local:
+      :backlinks: entry
+      :depth: 2
+
+----
