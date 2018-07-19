@@ -26,6 +26,10 @@ GLib Cross-Reference
 `GLib Fundamentals <https://developer.gnome.org/glib/unstable/glib-fundamentals.html>`__
 ========================================================================================
 
+TODO
+
+----
+
 `Basic Types <https://developer.gnome.org/glib/unstable/glib-Basic-Types.html>`__
 ---------------------------------------------------------------------------------
 
@@ -50,8 +54,6 @@ GLib Cross-Reference
 
    * - ``gfloat``
      - TODO
-
-
 
    * - ``gint``
      - TODO
@@ -116,6 +118,8 @@ GLib Cross-Reference
    * - ``gushort``
      - TODO
 
+----
+
 `Bounds-Checking Integer Arithmetic <https://developer.gnome.org/glib/unstable/glib-Bounds-checked-integer-arithmetic.html>`__
 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -144,6 +148,8 @@ GLib Cross-Reference
    * - ``g_uint64_checked_mul()``
      - TODO
 
+----
+
 `Numerical Definitions <https://developer.gnome.org/glib/unstable/glib-Numerical-Definitions.html>`__
 -----------------------------------------------------------------------------------------------------
 
@@ -165,6 +171,10 @@ GLib Cross-Reference
 `GLib Core Application Support <https://developer.gnome.org/glib/unstable/glib-core.html>`__
 ============================================================================================
 
+TODO
+
+----
+
 `Error Reporting <https://developer.gnome.org/glib/unstable/glib-Error-Reporting.html>`__
 -----------------------------------------------------------------------------------------
 
@@ -174,6 +184,10 @@ TODO
 
 `GLib Utilities <https://developer.gnome.org/glib/unstable/glib-utilities.html>`__
 ==================================================================================
+
+TODO
+
+----
 
 `String Utility Functions <https://developer.gnome.org/glib/unstable/glib-String-Utility-Functions.html>`__
 -----------------------------------------------------------------------------------------------------------
@@ -251,6 +265,8 @@ TODO
    * - ``g_str_is_ascii()``
      - TODO
 
+----
+
 `Unicode Manipulation <https://developer.gnome.org/glib/unstable/glib-Unicode-Manipulation.html>`__
 ---------------------------------------------------------------------------------------------------
 
@@ -282,10 +298,14 @@ TODO
    * - ``g_utf8_validate()``
      - TODO
 
+----
+
 `URI Functions <https://developer.gnome.org/glib/unstable/glib-URI-Functions.html>`__
 -------------------------------------------------------------------------------------
 
 TODO
+
+----
 
 `GUuid <https://developer.gnome.org/glib/unstable/glib-GUuid.html>`__
 ---------------------------------------------------------------------
@@ -307,6 +327,10 @@ TODO
 
 `GLib Data Types <https://developer.gnome.org/glib/unstable/glib-data-types.html>`__
 ====================================================================================
+
+TODO
+
+----
 
 `Strings <https://developer.gnome.org/glib/unstable/glib-Strings.html>`__
 -------------------------------------------------------------------------

@@ -29,6 +29,8 @@ Apache Commons Cross-Reference
 - https://commons.apache.org/proper/commons-lang/javadocs/api-release/
 - https://wiki.apache.org/commons/Lang
 
+----
+
 org.apache.commons.lang3.math_
 ------------------------------
 
@@ -54,41 +56,105 @@ org.apache.commons.lang3.math_
 - https://commons.apache.org/proper/commons-math/apidocs/
 - https://wiki.apache.org/commons/Math
 
+----
+
 org.apache.commons.math4.analysis.function_
 -------------------------------------------
+
+- https://commons.apache.org/proper/commons-math/userguide/analysis.html
+
+TODO
+
+----
 
 org.apache.commons.math4.complex_
 ---------------------------------
 
+- https://commons.apache.org/proper/commons-math/userguide/complex.html
+
+TODO
+
+----
+
 org.apache.commons.math4.fraction_
 ----------------------------------
+
+- https://commons.apache.org/proper/commons-math/userguide/fraction.html
+
+TODO
+
+----
 
 org.apache.commons.math4.geometry_
 ----------------------------------
 
+- https://commons.apache.org/proper/commons-math/userguide/geometry.html
+
+TODO
+
+----
+
 org.apache.commons.math4.geometry.euclidean.oned_
 -------------------------------------------------
+
+TODO
+
+----
 
 org.apache.commons.math4.geometry.euclidean.twod_
 -------------------------------------------------
 
+TODO
+
+----
+
 org.apache.commons.math4.geometry.euclidean.threed_
 ---------------------------------------------------
+
+TODO
+
+----
 
 org.apache.commons.math4.linear_
 --------------------------------
 
+- https://commons.apache.org/proper/commons-math/userguide/linear.html
+
+TODO
+
+----
+
 org.apache.commons.math4.primes_
 --------------------------------
+
+TODO
+
+----
 
 org.apache.commons.math4.random_
 --------------------------------
 
+- https://commons.apache.org/proper/commons-math/userguide/random.html
+
+TODO
+
+----
+
 org.apache.commons.math4.stat_
 ------------------------------
 
+- https://commons.apache.org/proper/commons-math/userguide/stat.html
+
+TODO
+
+----
+
 org.apache.commons.math4.util_
 ------------------------------
+
+- https://commons.apache.org/proper/commons-math/userguide/utilities.html
+
+TODO
 
 .. _org.apache.commons.math4.analysis.function: https://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math4/analysis/function/package-summary.html
 .. _org.apache.commons.math4.complex: https://commons.apache.org/proper/commons-math/apidocs/org/apache/commons/math4/complex/package-summary.html
@@ -113,6 +179,8 @@ org.apache.commons.math4.util_
 - https://commons.apache.org/proper/commons-text/userguide.html
 - https://commons.apache.org/proper/commons-text/javadocs/api-release/
 
+----
+
 org.apache.commons.text_
 ------------------------
 
@@ -126,11 +194,19 @@ org.apache.commons.text_
    * - ``WordUtils``
      - ``lang/en``
 
+----
+
 org.apache.commons.text.diff_
 -----------------------------
 
+TODO
+
+----
+
 org.apache.commons.text.similarity_
 -----------------------------------
+
+TODO
 
 .. _org.apache.commons.text: https://commons.apache.org/proper/commons-text/javadocs/api-release/org/apache/commons/text/package-summary.html
 .. _org.apache.commons.text.diff: https://commons.apache.org/proper/commons-text/javadocs/api-release/org/apache/commons/text/diff/package-summary.html
